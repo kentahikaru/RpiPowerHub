@@ -806,84 +806,84 @@ Updated by Ella Wu 2020-08-14&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="X1" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MKDSN1,5/4-5,08" device="" package3d_urn="urn:adsk.eagle:package:9636/1"/>
-<part name="J1" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
-<part name="J2" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
-<part name="J3" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
-<part name="J4" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
-<part name="J5" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
-<part name="J6" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
-<part name="J7" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
-<part name="J8" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
-<part name="JP1" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="PINHD-2X8" device="/90" package3d_urn="urn:adsk.eagle:package:22488/2"/>
+<part name="PWR_IN" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MKDSN1,5/4-5,08" device="" package3d_urn="urn:adsk.eagle:package:9636/1"/>
+<part name="PWR1" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
+<part name="PWR2" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
+<part name="PWR3" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
+<part name="PWR4" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
+<part name="PWR5" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
+<part name="PWR6" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
+<part name="PWR7" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
+<part name="PWR8" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
+<part name="FAN_PWR" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="PINHD-2X8" device="/90" package3d_urn="urn:adsk.eagle:package:22488/2"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="X1" gate="-1" x="43.18" y="76.2" smashed="yes">
+<instance part="PWR_IN" gate="-1" x="43.18" y="76.2" smashed="yes">
 <attribute name="NAME" x="46.228" y="75.311" size="1.778" layer="95"/>
 <attribute name="VALUE" x="40.64" y="72.517" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="-2" x="43.18" y="71.12" smashed="yes">
+<instance part="PWR_IN" gate="-2" x="43.18" y="71.12" smashed="yes">
 <attribute name="NAME" x="46.228" y="70.231" size="1.778" layer="95"/>
 </instance>
-<instance part="X1" gate="-3" x="43.18" y="66.04" smashed="yes">
+<instance part="PWR_IN" gate="-3" x="43.18" y="66.04" smashed="yes">
 <attribute name="NAME" x="46.228" y="65.151" size="1.778" layer="95"/>
 </instance>
-<instance part="X1" gate="-4" x="43.18" y="60.96" smashed="yes">
+<instance part="PWR_IN" gate="-4" x="43.18" y="60.96" smashed="yes">
 <attribute name="NAME" x="46.228" y="60.071" size="1.778" layer="95"/>
 </instance>
-<instance part="J1" gate="G$1" x="7.62" y="66.04" smashed="yes" rot="R180">
+<instance part="PWR1" gate="G$1" x="7.62" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="7.74" y="60.15" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="12.67" y="76.25" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="7.74" y="60.15" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="12.67" y="76.25" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J2" gate="G$1" x="7.62" y="45.72" smashed="yes" rot="R180">
+<instance part="PWR2" gate="G$1" x="7.62" y="45.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="7.74" y="39.83" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="12.67" y="55.93" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="7.74" y="39.83" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="12.67" y="55.93" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J3" gate="G$1" x="7.62" y="27.94" smashed="yes" rot="R180">
+<instance part="PWR3" gate="G$1" x="7.62" y="27.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="7.74" y="22.05" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="12.67" y="38.15" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="7.74" y="22.05" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="12.67" y="38.15" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J4" gate="G$1" x="5.08" y="7.62" smashed="yes" rot="R180">
+<instance part="PWR4" gate="G$1" x="5.08" y="7.62" smashed="yes" rot="R180">
 <attribute name="NAME" x="5.2" y="1.73" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="10.13" y="17.83" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="5.2" y="1.73" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="10.13" y="17.83" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J5" gate="G$1" x="83.82" y="68.58" smashed="yes" rot="R180">
+<instance part="PWR5" gate="G$1" x="83.82" y="68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="83.94" y="62.69" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="88.87" y="78.79" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="83.94" y="62.69" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="88.87" y="78.79" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J6" gate="G$1" x="83.82" y="48.26" smashed="yes" rot="R180">
+<instance part="PWR6" gate="G$1" x="83.82" y="48.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="83.94" y="42.37" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="88.87" y="58.47" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="83.94" y="42.37" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="88.87" y="58.47" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J7" gate="G$1" x="83.82" y="27.94" smashed="yes" rot="R180">
+<instance part="PWR7" gate="G$1" x="83.82" y="27.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="83.94" y="22.05" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="88.87" y="38.15" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="83.94" y="22.05" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="88.87" y="38.15" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J8" gate="G$1" x="83.82" y="10.16" smashed="yes" rot="R180">
+<instance part="PWR8" gate="G$1" x="83.82" y="10.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="83.94" y="4.27" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="88.87" y="20.37" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="83.94" y="4.27" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="88.87" y="20.37" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JP1" gate="A" x="43.18" y="15.24" smashed="yes">
+<instance part="FAN_PWR" gate="A" x="43.18" y="15.24" smashed="yes">
 <attribute name="NAME" x="36.83" y="26.035" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.83" y="0" size="1.778" layer="96"/>
 </instance>
@@ -893,52 +893,52 @@ Updated by Ella Wu 2020-08-14&lt;br&gt;
 <nets>
 <net name="5V" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="VBUS"/>
+<pinref part="PWR1" gate="G$1" pin="VBUS"/>
 <wire x1="22.86" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
 <label x="20.32" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-1" pin="KL"/>
+<pinref part="PWR_IN" gate="-1" pin="KL"/>
 <wire x1="40.64" y1="76.2" x2="35.56" y2="76.2" width="0.1524" layer="91"/>
 <label x="35.56" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="43.18" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="VBUS"/>
+<pinref part="PWR2" gate="G$1" pin="VBUS"/>
 <label x="20.32" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="VBUS"/>
+<pinref part="PWR3" gate="G$1" pin="VBUS"/>
 <label x="20.32" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="5.08" x2="15.24" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="VBUS"/>
+<pinref part="PWR4" gate="G$1" pin="VBUS"/>
 <label x="17.78" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="99.06" y1="7.62" x2="93.98" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="J8" gate="G$1" pin="VBUS"/>
+<pinref part="PWR8" gate="G$1" pin="VBUS"/>
 <label x="96.52" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="99.06" y1="25.4" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="J7" gate="G$1" pin="VBUS"/>
+<pinref part="PWR7" gate="G$1" pin="VBUS"/>
 <label x="96.52" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="99.06" y1="45.72" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="VBUS"/>
+<pinref part="PWR6" gate="G$1" pin="VBUS"/>
 <label x="96.52" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="99.06" y1="66.04" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="VBUS"/>
+<pinref part="PWR5" gate="G$1" pin="VBUS"/>
 <label x="96.52" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="16"/>
+<pinref part="FAN_PWR" gate="A" pin="16"/>
 <wire x1="48.26" y1="5.08" x2="48.26" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="7.62" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="10.16" x2="48.26" y2="12.7" width="0.1524" layer="91"/>
@@ -948,95 +948,95 @@ Updated by Ella Wu 2020-08-14&lt;br&gt;
 <wire x1="48.26" y1="20.32" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="22.86" x2="48.26" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="30.48" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="FAN_PWR" gate="A" pin="2"/>
 <junction x="48.26" y="22.86"/>
-<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="FAN_PWR" gate="A" pin="4"/>
 <junction x="48.26" y="20.32"/>
-<pinref part="JP1" gate="A" pin="6"/>
+<pinref part="FAN_PWR" gate="A" pin="6"/>
 <junction x="48.26" y="17.78"/>
-<pinref part="JP1" gate="A" pin="8"/>
+<pinref part="FAN_PWR" gate="A" pin="8"/>
 <junction x="48.26" y="15.24"/>
-<pinref part="JP1" gate="A" pin="10"/>
+<pinref part="FAN_PWR" gate="A" pin="10"/>
 <junction x="48.26" y="12.7"/>
-<pinref part="JP1" gate="A" pin="12"/>
+<pinref part="FAN_PWR" gate="A" pin="12"/>
 <junction x="48.26" y="10.16"/>
-<pinref part="JP1" gate="A" pin="14"/>
+<pinref part="FAN_PWR" gate="A" pin="14"/>
 <junction x="48.26" y="7.62"/>
 <label x="50.8" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="GND"/>
+<pinref part="PWR1" gate="G$1" pin="GND"/>
 <wire x1="17.78" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
 <label x="20.32" y="71.12" size="1.778" layer="95"/>
 <label x="35.56" y="71.12" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="SHIELD"/>
+<pinref part="PWR1" gate="G$1" pin="SHIELD"/>
 <wire x1="17.78" y1="73.66" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
 <junction x="17.78" y="71.12"/>
 </segment>
 <segment>
 <wire x1="17.78" y1="50.8" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="GND"/>
+<pinref part="PWR2" gate="G$1" pin="GND"/>
 <label x="20.32" y="50.8" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="SHIELD"/>
+<pinref part="PWR2" gate="G$1" pin="SHIELD"/>
 <wire x1="17.78" y1="53.34" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
 <junction x="17.78" y="50.8"/>
 </segment>
 <segment>
 <wire x1="17.78" y1="33.02" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="GND"/>
+<pinref part="PWR3" gate="G$1" pin="GND"/>
 <label x="20.32" y="33.02" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="SHIELD"/>
+<pinref part="PWR3" gate="G$1" pin="SHIELD"/>
 <wire x1="17.78" y1="35.56" x2="17.78" y2="33.02" width="0.1524" layer="91"/>
 <junction x="17.78" y="33.02"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="12.7" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="GND"/>
+<pinref part="PWR4" gate="G$1" pin="GND"/>
 <label x="17.78" y="12.7" size="1.778" layer="95"/>
-<pinref part="J4" gate="G$1" pin="SHIELD"/>
+<pinref part="PWR4" gate="G$1" pin="SHIELD"/>
 <wire x1="15.24" y1="15.24" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
 <junction x="15.24" y="12.7"/>
 </segment>
 <segment>
 <wire x1="93.98" y1="15.24" x2="99.06" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="J8" gate="G$1" pin="GND"/>
+<pinref part="PWR8" gate="G$1" pin="GND"/>
 <label x="96.52" y="15.24" size="1.778" layer="95"/>
-<pinref part="J8" gate="G$1" pin="SHIELD"/>
+<pinref part="PWR8" gate="G$1" pin="SHIELD"/>
 <wire x1="93.98" y1="17.78" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
 <junction x="93.98" y="15.24"/>
 </segment>
 <segment>
 <wire x1="93.98" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="J7" gate="G$1" pin="GND"/>
+<pinref part="PWR7" gate="G$1" pin="GND"/>
 <label x="96.52" y="33.02" size="1.778" layer="95"/>
-<pinref part="J7" gate="G$1" pin="SHIELD"/>
+<pinref part="PWR7" gate="G$1" pin="SHIELD"/>
 <wire x1="93.98" y1="35.56" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
 <junction x="93.98" y="33.02"/>
 </segment>
 <segment>
 <wire x1="93.98" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="GND"/>
+<pinref part="PWR6" gate="G$1" pin="GND"/>
 <label x="96.52" y="53.34" size="1.778" layer="95"/>
-<pinref part="J6" gate="G$1" pin="SHIELD"/>
+<pinref part="PWR6" gate="G$1" pin="SHIELD"/>
 <wire x1="93.98" y1="55.88" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
 <junction x="93.98" y="53.34"/>
 </segment>
 <segment>
 <wire x1="93.98" y1="73.66" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="GND"/>
+<pinref part="PWR5" gate="G$1" pin="GND"/>
 <label x="96.52" y="73.66" size="1.778" layer="95"/>
-<pinref part="J5" gate="G$1" pin="SHIELD"/>
+<pinref part="PWR5" gate="G$1" pin="SHIELD"/>
 <wire x1="93.98" y1="76.2" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
 <junction x="93.98" y="73.66"/>
 </segment>
 <segment>
 <wire x1="35.56" y1="71.12" x2="40.64" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-2" pin="KL"/>
+<pinref part="PWR_IN" gate="-2" pin="KL"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="15"/>
+<pinref part="FAN_PWR" gate="A" pin="15"/>
 <wire x1="40.64" y1="5.08" x2="40.64" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="7.62" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="10.16" x2="40.64" y2="12.7" width="0.1524" layer="91"/>
@@ -1046,19 +1046,19 @@ Updated by Ella Wu 2020-08-14&lt;br&gt;
 <wire x1="40.64" y1="20.32" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="22.86" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="30.48" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="FAN_PWR" gate="A" pin="1"/>
 <junction x="40.64" y="22.86"/>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="FAN_PWR" gate="A" pin="3"/>
 <junction x="40.64" y="20.32"/>
-<pinref part="JP1" gate="A" pin="5"/>
+<pinref part="FAN_PWR" gate="A" pin="5"/>
 <junction x="40.64" y="17.78"/>
-<pinref part="JP1" gate="A" pin="7"/>
+<pinref part="FAN_PWR" gate="A" pin="7"/>
 <junction x="40.64" y="15.24"/>
-<pinref part="JP1" gate="A" pin="9"/>
+<pinref part="FAN_PWR" gate="A" pin="9"/>
 <junction x="40.64" y="12.7"/>
-<pinref part="JP1" gate="A" pin="11"/>
+<pinref part="FAN_PWR" gate="A" pin="11"/>
 <junction x="40.64" y="10.16"/>
-<pinref part="JP1" gate="A" pin="13"/>
+<pinref part="FAN_PWR" gate="A" pin="13"/>
 <junction x="40.64" y="7.62"/>
 <label x="35.56" y="30.48" size="1.778" layer="95"/>
 </segment>
