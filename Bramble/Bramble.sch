@@ -970,7 +970,6 @@ Updated by Ella Wu 2020-08-14&lt;br&gt;
 <pinref part="PWR1" gate="G$1" pin="GND"/>
 <wire x1="17.78" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
 <label x="20.32" y="71.12" size="1.778" layer="95"/>
-<label x="35.56" y="71.12" size="1.778" layer="95"/>
 <pinref part="PWR1" gate="G$1" pin="SHIELD"/>
 <wire x1="17.78" y1="73.66" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
 <junction x="17.78" y="71.12"/>
@@ -1034,6 +1033,7 @@ Updated by Ella Wu 2020-08-14&lt;br&gt;
 <segment>
 <wire x1="35.56" y1="71.12" x2="40.64" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="PWR_IN" gate="-2" pin="KL"/>
+<label x="35.56" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="FAN_PWR" gate="A" pin="15"/>
@@ -1066,6 +1066,10 @@ Updated by Ella Wu 2020-08-14&lt;br&gt;
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,40.64,66.04,PWR_IN-3,KL,,,,"/>
+<approved hash="101,1,40.64,60.96,PWR_IN-4,KL,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
