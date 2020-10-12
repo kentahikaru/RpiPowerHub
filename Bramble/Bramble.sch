@@ -3033,6 +3033,8 @@ Updated 05/28/2005 - Rev 4.02&lt;/author&gt;&lt;br&gt;&lt;br&gt;</description>
 <part name="C7" library="cap-master" deviceset="CBP-" device="ENP-020-050" value="100uF"/>
 <part name="C8" library="cap-master" deviceset="CBP-" device="ENP-020-050" value="100uF"/>
 <part name="PWR_IN" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MKDSN1,5/2-5,08" device="" package3d_urn="urn:adsk.eagle:package:9630/1"/>
+<part name="C9" library="cap-master" deviceset="CBP-" device="ENP-020-050" value="100uF"/>
+<part name="C10" library="cap-master" deviceset="CBP-" device="ENP-020-050" value="100uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -3166,6 +3168,14 @@ Updated 05/28/2005 - Rev 4.02&lt;/author&gt;&lt;br&gt;&lt;br&gt;</description>
 <instance part="PWR_IN" gate="-2" x="48.26" y="76.2" smashed="yes">
 <attribute name="VALUE" x="45.72" y="72.517" size="1.778" layer="96"/>
 </instance>
+<instance part="C9" gate="G$1" x="45.72" y="35.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="43.815" y="34.925" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="50.8" y="39.6875" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C10" gate="G$1" x="45.72" y="43.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="43.815" y="42.545" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="50.8" y="47.3075" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3241,6 +3251,12 @@ Updated 05/28/2005 - Rev 4.02&lt;/author&gt;&lt;br&gt;&lt;br&gt;</description>
 <pinref part="FAN_PWR" gate="A" pin="14"/>
 <junction x="48.26" y="7.62"/>
 <label x="50.8" y="30.48" size="1.778" layer="95"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="30.48" x2="48.26" y2="35.56" width="0.1524" layer="91"/>
+<junction x="48.26" y="30.48"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="35.56" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
+<junction x="48.26" y="35.56"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3355,6 +3371,14 @@ Updated 05/28/2005 - Rev 4.02&lt;/author&gt;&lt;br&gt;&lt;br&gt;</description>
 <pinref part="FAN_PWR" gate="A" pin="13"/>
 <junction x="40.64" y="7.62"/>
 <label x="35.56" y="30.48" size="1.778" layer="95"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="43.18" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
+<junction x="40.64" y="30.48"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="35.56" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="35.56" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
+<junction x="40.64" y="35.56"/>
 </segment>
 </net>
 <net name="N$1" class="0">
