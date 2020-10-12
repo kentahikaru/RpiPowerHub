@@ -3159,13 +3159,12 @@ Updated 05/28/2005 - Rev 4.02&lt;/author&gt;&lt;br&gt;&lt;br&gt;</description>
 <attribute name="NAME" x="98.425" y="12.065" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="103.1875" y="5.08" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PWR_IN" gate="-1" x="45.72" y="76.2" smashed="yes">
-<attribute name="NAME" x="48.768" y="75.311" size="1.778" layer="95"/>
-<attribute name="VALUE" x="45.72" y="77.597" size="1.778" layer="96"/>
+<instance part="PWR_IN" gate="-1" x="48.26" y="71.12" smashed="yes">
+<attribute name="NAME" x="51.308" y="70.231" size="1.778" layer="95"/>
+<attribute name="VALUE" x="48.26" y="72.517" size="1.778" layer="96"/>
 </instance>
-<instance part="PWR_IN" gate="-2" x="45.72" y="71.12" smashed="yes">
-<attribute name="NAME" x="48.768" y="70.231" size="1.778" layer="95"/>
-<attribute name="VALUE" x="43.18" y="67.437" size="1.778" layer="96"/>
+<instance part="PWR_IN" gate="-2" x="48.26" y="76.2" smashed="yes">
+<attribute name="VALUE" x="45.72" y="72.517" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -3326,9 +3325,9 @@ Updated 05/28/2005 - Rev 4.02&lt;/author&gt;&lt;br&gt;&lt;br&gt;</description>
 <wire x1="99.06" y1="71.12" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
 <label x="35.56" y="71.12" size="1.778" layer="95"/>
-<pinref part="PWR_IN" gate="-2" pin="KL"/>
+<wire x1="35.56" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="PWR_IN" gate="-1" pin="KL"/>
 </segment>
 <segment>
 <pinref part="FAN_PWR" gate="A" pin="15"/>
@@ -3441,8 +3440,8 @@ Updated 05/28/2005 - Rev 4.02&lt;/author&gt;&lt;br&gt;&lt;br&gt;</description>
 <net name="N$9" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="PWR_IN" gate="-1" pin="KL"/>
+<wire x1="38.1" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="PWR_IN" gate="-2" pin="KL"/>
 </segment>
 </net>
 </nets>
