@@ -96,10 +96,12 @@
 <hole x="3.5" y="3.5" drill="3"/>
 <hole x="61.5" y="52.5" drill="3"/>
 <hole x="61.5" y="3.5" drill="3"/>
-<text x="69.85" y="12.7" size="1.27" layer="25">5V</text>
-<text x="68.58" y="7.62" size="1.27" layer="25">GND</text>
-<text x="19.05" y="41.91" size="1.27" layer="25">GND</text>
-<text x="21.59" y="45.72" size="1.27" layer="25" rot="R180">5V</text>
+<text x="66.04" y="20.32" size="1.27" layer="25" rot="R90">5V</text>
+<text x="66.04" y="13.97" size="1.27" layer="25" rot="R90">GND</text>
+<text x="24.13" y="39.37" size="1.27" layer="25" rot="R90">GND</text>
+<text x="22.86" y="46.99" size="1.27" layer="25" rot="R270">5V</text>
+<text x="66.04" y="48.26" size="1.27" layer="25" rot="R90">5V</text>
+<text x="66.04" y="41.91" size="1.27" layer="25" rot="R90">GND</text>
 </plain>
 <libraries>
 <library name="Wurth_Connectors_WR-USB" urn="urn:adsk.eagle:library:16513831">
@@ -683,7 +685,7 @@ design rules under a new name.</description>
 <element name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" package="FUSE_HOLDER_5X20MM" package3d_urn="urn:adsk.eagle:package:14079/1" value="FUSEBLANK_5X20MM" x="60.96" y="38.1" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="60.96" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="60.96" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="64.77" y="36.068" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="60.96" y="32.258" size="1.27" layer="25" rot="R270"/>
 <attribute name="OC_FARNELL" value="unknown" x="60.96" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="60.96" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULARITY" value="4" x="60.96" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
@@ -701,27 +703,21 @@ design rules under a new name.</description>
 <attribute name="SUB-CATEGORY" value="PIN-HEADER" x="29.21" y="48.26" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="29.21" y="48.26" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="29.21" y="48.26" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="36.195" y="44.45" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C1" library="cap-vishay-153clv" package="153CLV-1010" value="CPOL-1010" x="49.53" y="30.48" smashed="yes" rot="R270">
-<attribute name="NAME" x="51.28" y="33.03" size="1.016" layer="25" rot="R270"/>
-<attribute name="VALUE" x="46.855" y="33.03" size="1.016" layer="27" rot="R270"/>
+<attribute name="NAME" x="48.74" y="31.76" size="1.016" layer="25" rot="R270"/>
 </element>
 <element name="C2" library="cap-vishay-153clv" package="153CLV-1010" value="CPOL-1010" x="36.83" y="30.48" smashed="yes" rot="R270">
-<attribute name="NAME" x="38.58" y="33.03" size="1.016" layer="25" rot="R270"/>
-<attribute name="VALUE" x="34.155" y="33.03" size="1.016" layer="27" rot="R270"/>
+<attribute name="NAME" x="36.04" y="31.76" size="1.016" layer="25" rot="R270"/>
 </element>
 <element name="C3" library="cap-vishay-153clv" package="153CLV-1010" value="CPOL-1010" x="24.13" y="30.48" smashed="yes" rot="R270">
-<attribute name="NAME" x="25.88" y="33.03" size="1.016" layer="25" rot="R270"/>
-<attribute name="VALUE" x="21.455" y="33.03" size="1.016" layer="27" rot="R270"/>
+<attribute name="NAME" x="23.34" y="31.76" size="1.016" layer="25" rot="R270"/>
 </element>
 <element name="C4" library="cap-vishay-153clv" package="153CLV-1010" value="CPOL-1010" x="11.43" y="30.48" smashed="yes" rot="R270">
-<attribute name="NAME" x="13.18" y="33.03" size="1.016" layer="25" rot="R270"/>
-<attribute name="VALUE" x="8.755" y="33.03" size="1.016" layer="27" rot="R270"/>
+<attribute name="NAME" x="10.64" y="31.76" size="1.016" layer="25" rot="R270"/>
 </element>
 <element name="C5" library="cap-vishay-153clv" package="153CLV-1010" value="CPOL-1010" x="43.18" y="48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="41.43" y="45.71" size="1.016" layer="25" rot="R90"/>
-<attribute name="VALUE" x="45.855" y="45.71" size="1.016" layer="27" rot="R90"/>
+<attribute name="NAME" x="42.7" y="46.98" size="1.016" layer="25" rot="R90"/>
 </element>
 <element name="FL1" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18PG121SH1D" x="55.88" y="31.75" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="55.88" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -732,7 +728,6 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="1608 Murata" x="55.88" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="55.88" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda" x="55.88" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="55.43" y="34.07" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="FL2" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18PG121SH1D" x="43.18" y="31.75" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="43.18" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -743,7 +738,6 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="1608 Murata" x="43.18" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="43.18" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda" x="43.18" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="42.73" y="34.07" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="FL3" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18PG121SH1D" x="30.48" y="31.75" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="30.48" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -754,7 +748,6 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="1608 Murata" x="30.48" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="30.48" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda" x="30.48" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="30.03" y="34.07" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="FL4" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18PG121SH1D" x="17.78" y="31.75" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="17.78" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -765,27 +758,24 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="1608 Murata" x="17.78" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="17.78" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda" x="17.78" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="17.33" y="34.07" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
-<element name="U$1" library="15244441" package="MOLEX_15244441" value="15244441" x="74.93" y="13.97" smashed="yes" rot="R270">
+<element name="MOLEX1" library="15244441" package="MOLEX_15244441" value="15244441" x="74.93" y="13.97" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Bad" x="74.93" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" Connector Header Through Hole, Right Angle 4 position 0.200 (5.08mm) " x="74.93" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Molex" x="74.93" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="15-24-4441" x="74.93" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="82.9431" y="25.9896" size="1.27208125" layer="25" rot="R270"/>
+<attribute name="NAME" x="72.7831" y="17.0996" size="1.27208125" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="74.93" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="74.93" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="64.9181" y="25.9843" size="1.271509375" layer="27" rot="R270"/>
 </element>
-<element name="U$2" library="15244441" package="MOLEX_15244441" value="15244441" x="74.93" y="40.64" smashed="yes" rot="R270">
+<element name="MOLEX2" library="15244441" package="MOLEX_15244441" value="15244441" x="74.93" y="40.64" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Bad" x="74.93" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" Connector Header Through Hole, Right Angle 4 position 0.200 (5.08mm) " x="74.93" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Molex" x="74.93" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="15-24-4441" x="74.93" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="82.9431" y="52.6596" size="1.27208125" layer="25" rot="R270"/>
+<attribute name="NAME" x="72.7831" y="45.0396" size="1.27208125" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="74.93" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="74.93" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="64.9181" y="52.6543" size="1.271509375" layer="27" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -886,8 +876,8 @@ design rules under a new name.</description>
 <wire x1="46.99" y1="38.1" x2="49.53" y2="35.56" width="1.27" layer="1"/>
 <wire x1="52.07" y1="38.1" x2="49.53" y2="35.56" width="1.27" layer="1"/>
 <wire x1="49.53" y1="35.56" x2="49.53" y2="34.29" width="1.27" layer="1"/>
-<contactref element="U$1" pad="2"/>
-<contactref element="U$2" pad="2"/>
+<contactref element="MOLEX1" pad="2"/>
+<contactref element="MOLEX2" pad="2"/>
 <wire x1="49.53" y1="34.29" x2="49.53" y2="34.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
@@ -938,8 +928,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="5VIN">
 <contactref element="F1" pad="2"/>
-<contactref element="U$1" pad="1"/>
-<contactref element="U$2" pad="1"/>
+<contactref element="MOLEX1" pad="1"/>
+<contactref element="MOLEX2" pad="1"/>
 <polygon width="1.27" layer="1">
 <vertex x="66.04" y="54.61"/>
 <vertex x="66.04" y="25.4"/>

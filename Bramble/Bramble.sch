@@ -2558,8 +2558,8 @@ Aluminium Capacitor Serie 153CLV</description>
 <part name="FL2" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device=""/>
 <part name="FL3" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device=""/>
 <part name="FL4" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device=""/>
-<part name="U$1" library="15244441" deviceset="15244441" device=""/>
-<part name="U$2" library="15244441" deviceset="15244441" device=""/>
+<part name="MOLEX1" library="15244441" deviceset="15244441" device=""/>
+<part name="MOLEX2" library="15244441" deviceset="15244441" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2634,13 +2634,11 @@ Aluminium Capacitor Serie 153CLV</description>
 <attribute name="NAME" x="12.6956" y="7.62148125" size="2.54148125" layer="95"/>
 <attribute name="VALUE" x="12.69" y="-2.546640625" size="2.54331875" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="116.84" y="68.58" smashed="yes">
+<instance part="MOLEX1" gate="G$1" x="116.84" y="68.58" smashed="yes">
 <attribute name="NAME" x="119.37916875" y="66.041240625" size="1.270209375" layer="95"/>
-<attribute name="VALUE" x="111.75308125" y="58.4062" size="1.27173125" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="142.24" y="68.58" smashed="yes">
+<instance part="MOLEX2" gate="G$1" x="142.24" y="68.58" smashed="yes">
 <attribute name="NAME" x="142.23916875" y="76.201240625" size="1.270209375" layer="95"/>
-<attribute name="VALUE" x="137.15308125" y="58.4062" size="1.27173125" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -2733,10 +2731,10 @@ Aluminium Capacitor Serie 153CLV</description>
 <segment>
 <label x="91.44" y="68.58" size="1.778" layer="95"/>
 <wire x1="91.44" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="2"/>
+<pinref part="MOLEX1" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="68.58" x2="108.966" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="108.966" y1="69.85" x2="108.966" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="2"/>
+<pinref part="MOLEX2" gate="G$1" pin="2"/>
 <wire x1="134.366" y1="69.85" x2="134.366" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="134.366" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="71.12" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
@@ -2806,10 +2804,10 @@ Aluminium Capacitor Serie 153CLV</description>
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="1"/>
+<pinref part="MOLEX1" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="73.66" x2="108.966" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="108.966" y1="72.39" x2="108.966" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="1"/>
+<pinref part="MOLEX2" gate="G$1" pin="1"/>
 <wire x1="134.366" y1="72.39" x2="134.366" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="134.366" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="76.2" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
