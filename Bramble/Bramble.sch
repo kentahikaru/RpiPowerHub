@@ -2414,14 +2414,14 @@ Aluminium Capacitor Serie 153CLV</description>
 <part name="C3" library="cap-vishay-153clv" deviceset="CPOL-1010" device=""/>
 <part name="C4" library="cap-vishay-153clv" deviceset="CPOL-1010" device=""/>
 <part name="C5" library="cap-vishay-153clv" deviceset="CPOL-1010" device=""/>
-<part name="FL1" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device=""/>
-<part name="FL2" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device=""/>
-<part name="FL3" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device=""/>
-<part name="FL4" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device=""/>
+<part name="FL1" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device="" value="BLM18KG121TN1D"/>
+<part name="FL2" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device="" value="BLM18KG121TN1D"/>
+<part name="FL3" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device="" value="BLM18KG121TN1D"/>
+<part name="FL4" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device="" value="BLM18KG121TN1D"/>
 <part name="MOLEX1" library="15244441" deviceset="15244441" device=""/>
 <part name="MOLEX2" library="15244441" deviceset="15244441" device=""/>
-<part name="J3" library="5787745-1" deviceset="5787745-1" device=""/>
-<part name="J4" library="5787745-1" deviceset="5787745-1" device=""/>
+<part name="USB12" library="5787745-1" deviceset="5787745-1" device=""/>
+<part name="USB34" library="5787745-1" deviceset="5787745-1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2478,11 +2478,11 @@ Aluminium Capacitor Serie 153CLV</description>
 <instance part="MOLEX2" gate="G$1" x="142.24" y="68.58" smashed="yes">
 <attribute name="NAME" x="142.23916875" y="76.201240625" size="1.270209375" layer="95"/>
 </instance>
-<instance part="J3" gate="G$1" x="-20.32" y="55.88" smashed="yes">
+<instance part="USB12" gate="G$1" x="-20.32" y="55.88" smashed="yes">
 <attribute name="NAME" x="-25.400109375" y="71.7553" size="1.778040625" layer="95"/>
 <attribute name="VALUE" x="-25.40351875" y="38.0877" size="1.77923125" layer="96"/>
 </instance>
-<instance part="J4" gate="G$1" x="-20.32" y="15.24" smashed="yes">
+<instance part="USB34" gate="G$1" x="-20.32" y="15.24" smashed="yes">
 <attribute name="NAME" x="-25.400109375" y="31.1153" size="1.778040625" layer="95"/>
 <attribute name="VALUE" x="-25.40351875" y="-2.5523" size="1.77923125" layer="96"/>
 </instance>
@@ -2591,32 +2591,32 @@ Aluminium Capacitor Serie 153CLV</description>
 </segment>
 <segment>
 <wire x1="-35.56" y1="43.18" x2="-30.48" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="SHIELD"/>
+<pinref part="USB12" gate="G$1" pin="SHIELD"/>
 <label x="-38.1" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-35.56" y1="2.54" x2="-30.48" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="SHIELD"/>
+<pinref part="USB34" gate="G$1" pin="SHIELD"/>
 <label x="-38.1" y="2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-35.56" y1="20.32" x2="-30.48" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="GND1"/>
+<pinref part="USB34" gate="G$1" pin="GND1"/>
 <label x="-38.1" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-35.56" y1="48.26" x2="-30.48" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="GND2"/>
+<pinref part="USB12" gate="G$1" pin="GND2"/>
 <label x="-35.56" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-35.56" y1="60.96" x2="-30.48" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="GND1"/>
+<pinref part="USB12" gate="G$1" pin="GND1"/>
 <label x="-38.1" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-35.56" y1="7.62" x2="-30.48" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="GND2"/>
+<pinref part="USB34" gate="G$1" pin="GND2"/>
 <label x="-35.56" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -2635,11 +2635,16 @@ Aluminium Capacitor Serie 153CLV</description>
 <label x="109.22" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="5VOUT1" class="0">
+<net name="5VOUT12" class="0">
 <segment>
 <wire x1="-35.56" y1="68.58" x2="-30.48" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="VUSB1"/>
+<pinref part="USB12" gate="G$1" pin="VUSB1"/>
 <label x="-38.1" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-35.56" y1="55.88" x2="-30.48" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="USB12" gate="G$1" pin="VUSB2"/>
+<label x="-38.1" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-7.62" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
@@ -2648,13 +2653,6 @@ Aluminium Capacitor Serie 153CLV</description>
 <junction x="7.62" y="63.5"/>
 <pinref part="FL1" gate="G$1" pin="1"/>
 <label x="-7.62" y="63.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="5VOUT2" class="0">
-<segment>
-<wire x1="-35.56" y1="55.88" x2="-30.48" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="VUSB2"/>
-<label x="-38.1" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-7.62" y1="43.18" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
@@ -2665,10 +2663,10 @@ Aluminium Capacitor Serie 153CLV</description>
 <label x="-7.62" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="5VOUT3" class="0">
+<net name="5VOUT34" class="0">
 <segment>
 <wire x1="-35.56" y1="27.94" x2="-30.48" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="VUSB1"/>
+<pinref part="USB34" gate="G$1" pin="VUSB1"/>
 <label x="-38.1" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -2679,11 +2677,9 @@ Aluminium Capacitor Serie 153CLV</description>
 <pinref part="FL3" gate="G$1" pin="1"/>
 <label x="-7.62" y="25.4" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="5VOUT4" class="0">
 <segment>
 <wire x1="-35.56" y1="15.24" x2="-30.48" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="VUSB2"/>
+<pinref part="USB34" gate="G$1" pin="VUSB2"/>
 <label x="-38.1" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
