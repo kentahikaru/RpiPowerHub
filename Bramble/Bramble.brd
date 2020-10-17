@@ -719,7 +719,7 @@ design rules under a new name.</description>
 <element name="C5" library="cap-vishay-153clv" package="153CLV-1010" value="CPOL-1010" x="43.18" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="42.7" y="46.98" size="1.016" layer="25" rot="R90"/>
 </element>
-<element name="FL1" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18PG121SH1D" x="55.88" y="34.29" smashed="yes" rot="R90">
+<element name="FL1" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18KG121TN1D" x="55.88" y="34.29" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="55.88" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" 120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm " x="55.88" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="55.88" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
@@ -729,7 +729,7 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="55.88" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda" x="55.88" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="FL2" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18PG121SH1D" x="43.18" y="34.29" smashed="yes" rot="R90">
+<element name="FL2" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18KG121TN1D" x="43.18" y="34.29" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="43.18" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" 120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm " x="43.18" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="43.18" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
@@ -739,7 +739,7 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="43.18" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda" x="43.18" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="FL3" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18PG121SH1D" x="30.48" y="34.29" smashed="yes" rot="R90">
+<element name="FL3" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18KG121TN1D" x="30.48" y="34.29" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" 120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm " x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
@@ -749,7 +749,7 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="FL4" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18PG121SH1D" x="17.78" y="34.29" smashed="yes" rot="R90">
+<element name="FL4" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18KG121TN1D" x="17.78" y="34.29" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="17.78" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" 120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm " x="17.78" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="17.78" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>

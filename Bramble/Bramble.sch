@@ -2554,10 +2554,10 @@ Aluminium Capacitor Serie 153CLV</description>
 <part name="C3" library="cap-vishay-153clv" deviceset="CPOL-1010" device=""/>
 <part name="C4" library="cap-vishay-153clv" deviceset="CPOL-1010" device=""/>
 <part name="C5" library="cap-vishay-153clv" deviceset="CPOL-1010" device=""/>
-<part name="FL1" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device=""/>
-<part name="FL2" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device=""/>
-<part name="FL3" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device=""/>
-<part name="FL4" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device=""/>
+<part name="FL1" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device="" value="BLM18KG121TN1D"/>
+<part name="FL2" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device="" value="BLM18KG121TN1D"/>
+<part name="FL3" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device="" value="BLM18KG121TN1D"/>
+<part name="FL4" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device="" value="BLM18KG121TN1D"/>
 <part name="MOLEX1" library="15244441" deviceset="15244441" device=""/>
 <part name="MOLEX2" library="15244441" deviceset="15244441" device=""/>
 </parts>
