@@ -98,7 +98,7 @@
 <hole x="61.5" y="3.5" drill="3"/>
 <text x="67.31" y="21.59" size="1.27" layer="25" rot="R90">5V</text>
 <text x="67.31" y="15.24" size="1.27" layer="25" rot="R90">GND</text>
-<text x="24.13" y="39.37" size="1.27" layer="25" rot="R90">GND</text>
+<text x="24.13" y="36.83" size="1.27" layer="25" rot="R90">GND</text>
 <text x="22.86" y="46.99" size="1.27" layer="25" rot="R270">5V</text>
 <text x="67.31" y="48.26" size="1.27" layer="25" rot="R90">5V</text>
 <text x="67.31" y="41.91" size="1.27" layer="25" rot="R90">GND</text>
@@ -553,60 +553,60 @@ design rules under a new name.</description>
 <attribute name="THERMALLOSS" value="" x="29.21" y="48.26" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="29.21" y="48.26" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C1" library="cap-vishay-153clv" package="153CLV-1010" value="CPOL-1010" x="49.53" y="30.48" smashed="yes" rot="R270">
-<attribute name="NAME" x="48.74" y="31.76" size="1.016" layer="25" rot="R270"/>
+<element name="C1" library="cap-vishay-153clv" package="153CLV-1010" value="CPOL-1010" x="49.53" y="27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="48.74" y="29.22" size="1.016" layer="25" rot="R270"/>
 </element>
-<element name="C2" library="cap-vishay-153clv" package="153CLV-1010" value="CPOL-1010" x="36.83" y="30.48" smashed="yes" rot="R270">
-<attribute name="NAME" x="36.04" y="31.76" size="1.016" layer="25" rot="R270"/>
+<element name="C2" library="cap-vishay-153clv" package="153CLV-1010" value="CPOL-1010" x="36.83" y="27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="36.04" y="29.22" size="1.016" layer="25" rot="R270"/>
 </element>
-<element name="C3" library="cap-vishay-153clv" package="153CLV-1010" value="CPOL-1010" x="24.13" y="30.48" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.34" y="31.76" size="1.016" layer="25" rot="R270"/>
+<element name="C3" library="cap-vishay-153clv" package="153CLV-1010" value="CPOL-1010" x="24.13" y="27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="23.34" y="29.22" size="1.016" layer="25" rot="R270"/>
 </element>
-<element name="C4" library="cap-vishay-153clv" package="153CLV-1010" value="CPOL-1010" x="11.43" y="30.48" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.64" y="31.76" size="1.016" layer="25" rot="R270"/>
+<element name="C4" library="cap-vishay-153clv" package="153CLV-1010" value="CPOL-1010" x="11.43" y="27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.64" y="29.22" size="1.016" layer="25" rot="R270"/>
 </element>
-<element name="C5" library="cap-vishay-153clv" package="153CLV-1010" value="CPOL-1010" x="44.45" y="45.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="45.73" y="45.24" size="1.016" layer="25" rot="R180"/>
+<element name="C5" library="cap-vishay-153clv" package="153CLV-1010" value="CPOL-1010" x="43.18" y="48.26" smashed="yes" rot="R90">
+<attribute name="NAME" x="42.7" y="46.98" size="1.016" layer="25" rot="R90"/>
 </element>
-<element name="FL1" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18KG121TN1D" x="55.88" y="34.29" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="Good" x="55.88" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" 120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm " x="55.88" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Murata Electronics" x="55.88" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="BLM18PG121SH1D" x="55.88" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="56.33" y="31.53" size="0.5" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="1608 Murata" x="55.88" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="55.88" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda" x="55.88" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="FL1" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18KG121TN1D" x="55.88" y="31.75" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="Good" x="55.88" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm " x="55.88" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Murata Electronics" x="55.88" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="BLM18PG121SH1D" x="55.88" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="56.33" y="28.99" size="0.5" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1608 Murata" x="55.88" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="55.88" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda" x="55.88" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="FL2" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18KG121TN1D" x="43.18" y="34.29" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="Good" x="43.18" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" 120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm " x="43.18" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Murata Electronics" x="43.18" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="BLM18PG121SH1D" x="43.18" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="43.63" y="31.53" size="0.5" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="1608 Murata" x="43.18" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="43.18" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda" x="43.18" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="FL2" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18KG121TN1D" x="43.18" y="31.75" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="Good" x="43.18" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm " x="43.18" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Murata Electronics" x="43.18" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="BLM18PG121SH1D" x="43.18" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="43.63" y="28.99" size="0.5" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1608 Murata" x="43.18" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="43.18" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda" x="43.18" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="FL3" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18KG121TN1D" x="30.48" y="34.29" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="Good" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" 120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm " x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Murata Electronics" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="BLM18PG121SH1D" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="30.93" y="31.53" size="0.5" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="1608 Murata" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="FL3" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18KG121TN1D" x="30.48" y="31.75" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="Good" x="30.48" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm " x="30.48" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Murata Electronics" x="30.48" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="BLM18PG121SH1D" x="30.48" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="30.93" y="28.99" size="0.5" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1608 Murata" x="30.48" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="30.48" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda" x="30.48" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="FL4" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18KG121TN1D" x="17.78" y="34.29" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="Good" x="17.78" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" 120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm " x="17.78" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Murata Electronics" x="17.78" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="BLM18PG121SH1D" x="17.78" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="18.23" y="31.53" size="0.5" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="1608 Murata" x="17.78" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="17.78" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda" x="17.78" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="FL4" library="BLM18PG121SH1D" package="BEADC1608X95N" value="BLM18KG121TN1D" x="17.78" y="31.75" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="Good" x="17.78" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" 120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm " x="17.78" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Murata Electronics" x="17.78" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="BLM18PG121SH1D" x="17.78" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="18.23" y="28.99" size="0.5" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1608 Murata" x="17.78" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="17.78" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda" x="17.78" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="MOLEX1" library="15244441" package="MOLEX_15244441" value="15244441" x="76.2" y="15.24" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Bad" x="76.2" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
@@ -626,29 +626,29 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="None" x="76.2" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="76.2" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="USB12" library="5787745-1" package="TE_5787745-1" value="5787745-1" x="43.18" y="12.7" smashed="yes">
-<attribute name="AVAILABILITY" value="Good" x="43.18" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="COMMENT" value="5787745-1" x="43.18" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Conn USB 2.0 Type A RCP/RCP 4/4 POS Solder RA Thru-Hole 8 Terminal 2 Port Tray " x="43.18" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="43.18" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE Connectivity" x="43.18" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="5787745-1" x="43.18" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="33.005390625" y="1.25783125" size="1.27243125" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="None" x="43.18" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="43.18" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/5787745-1/?ref=eda" x="43.18" y="12.7" size="1.778" layer="27" display="off"/>
+<element name="USB12" library="5787745-1" package="TE_5787745-1" value="5787745-1" x="43.18" y="11.43" smashed="yes">
+<attribute name="AVAILABILITY" value="Good" x="43.18" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="COMMENT" value="5787745-1" x="43.18" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Conn USB 2.0 Type A RCP/RCP 4/4 POS Solder RA Thru-Hole 8 Terminal 2 Port Tray " x="43.18" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="43.18" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE Connectivity" x="43.18" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="5787745-1" x="43.18" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="34.275390625" y="1.25783125" size="1.27243125" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="None" x="43.18" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="43.18" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/5787745-1/?ref=eda" x="43.18" y="11.43" size="1.778" layer="27" display="off"/>
 </element>
-<element name="USB34" library="5787745-1" package="TE_5787745-1" value="5787745-1" x="17.78" y="12.7" smashed="yes">
-<attribute name="AVAILABILITY" value="Good" x="17.78" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="COMMENT" value="5787745-1" x="17.78" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Conn USB 2.0 Type A RCP/RCP 4/4 POS Solder RA Thru-Hole 8 Terminal 2 Port Tray " x="17.78" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="17.78" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE Connectivity" x="17.78" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="5787745-1" x="17.78" y="12.7" size="1.778" layer="27" display="off"/>
+<element name="USB34" library="5787745-1" package="TE_5787745-1" value="5787745-1" x="17.78" y="11.43" smashed="yes">
+<attribute name="AVAILABILITY" value="Good" x="17.78" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="COMMENT" value="5787745-1" x="17.78" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Conn USB 2.0 Type A RCP/RCP 4/4 POS Solder RA Thru-Hole 8 Terminal 2 Port Tray " x="17.78" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="17.78" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE Connectivity" x="17.78" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="5787745-1" x="17.78" y="11.43" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="8.875390625" y="1.25783125" size="1.27243125" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="None" x="17.78" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="17.78" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/5787745-1/?ref=eda" x="17.78" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="None" x="17.78" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="17.78" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/5787745-1/?ref=eda" x="17.78" y="11.43" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -694,41 +694,41 @@ design rules under a new name.</description>
 <contactref element="C3" pad="-"/>
 <contactref element="C4" pad="-"/>
 <contactref element="C5" pad="-"/>
-<via x="8.89" y="38.1" extent="1-16" drill="1"/>
-<via x="11.43" y="38.1" extent="1-16" drill="1"/>
-<via x="13.97" y="38.1" extent="1-16" drill="1"/>
-<via x="21.59" y="38.1" extent="1-16" drill="1"/>
-<via x="24.13" y="38.1" extent="1-16" drill="1"/>
-<via x="26.67" y="38.1" extent="1-16" drill="1"/>
-<via x="34.29" y="38.1" extent="1-16" drill="1"/>
-<via x="36.83" y="38.1" extent="1-16" drill="1"/>
-<via x="39.37" y="38.1" extent="1-16" drill="1"/>
-<via x="52.07" y="38.1" extent="1-16" drill="1"/>
-<via x="49.53" y="38.1" extent="1-16" drill="1"/>
-<via x="46.99" y="38.1" extent="1-16" drill="1"/>
-<via x="52.07" y="48.26" extent="1-16" drill="1"/>
-<via x="52.07" y="45.72" extent="1-16" drill="1"/>
-<via x="52.07" y="43.18" extent="1-16" drill="1"/>
-<wire x1="11.43" y1="34.48" x2="11.43" y2="38.1" width="1.27" layer="1"/>
-<wire x1="8.89" y1="38.1" x2="11.43" y2="35.56" width="1.27" layer="1"/>
-<wire x1="11.43" y1="34.48" x2="11.43" y2="35.56" width="1.27" layer="1"/>
-<wire x1="11.43" y1="35.56" x2="13.97" y2="38.1" width="1.27" layer="1"/>
-<wire x1="24.13" y1="34.48" x2="24.13" y2="38.1" width="1.27" layer="1"/>
-<wire x1="24.13" y1="35.56" x2="21.59" y2="38.1" width="1.27" layer="1"/>
-<wire x1="24.13" y1="34.48" x2="24.13" y2="35.56" width="1.27" layer="1"/>
-<wire x1="24.13" y1="35.56" x2="26.67" y2="38.1" width="1.27" layer="1"/>
-<wire x1="36.83" y1="38.1" x2="36.83" y2="34.48" width="1.27" layer="1"/>
-<wire x1="34.29" y1="38.1" x2="36.83" y2="35.56" width="1.27" layer="1"/>
-<wire x1="39.37" y1="38.1" x2="36.83" y2="35.56" width="1.27" layer="1"/>
-<wire x1="36.83" y1="35.56" x2="36.83" y2="34.48" width="1.27" layer="1"/>
-<wire x1="52.07" y1="45.72" x2="48.45" y2="45.72" width="1.27" layer="1"/>
-<wire x1="52.07" y1="43.18" x2="49.53" y2="45.72" width="1.27" layer="1"/>
-<wire x1="52.07" y1="48.26" x2="49.53" y2="45.72" width="1.27" layer="1"/>
-<wire x1="49.53" y1="45.72" x2="48.45" y2="45.72" width="1.27" layer="1"/>
-<wire x1="49.53" y1="35.56" x2="49.53" y2="38.1" width="1.27" layer="1"/>
-<wire x1="46.99" y1="38.1" x2="49.53" y2="35.56" width="1.27" layer="1"/>
-<wire x1="52.07" y1="38.1" x2="49.53" y2="35.56" width="1.27" layer="1"/>
-<wire x1="49.53" y1="35.56" x2="49.53" y2="34.29" width="1.27" layer="1"/>
+<via x="8.89" y="35.56" extent="1-16" drill="1"/>
+<via x="11.43" y="35.56" extent="1-16" drill="1"/>
+<via x="13.97" y="35.56" extent="1-16" drill="1"/>
+<via x="21.59" y="35.56" extent="1-16" drill="1"/>
+<via x="24.13" y="35.56" extent="1-16" drill="1"/>
+<via x="26.67" y="35.56" extent="1-16" drill="1"/>
+<via x="34.29" y="35.56" extent="1-16" drill="1"/>
+<via x="36.83" y="35.56" extent="1-16" drill="1"/>
+<via x="39.37" y="35.56" extent="1-16" drill="1"/>
+<via x="52.07" y="35.56" extent="1-16" drill="1"/>
+<via x="49.53" y="35.56" extent="1-16" drill="1"/>
+<via x="46.99" y="35.56" extent="1-16" drill="1"/>
+<via x="45.72" y="40.64" extent="1-16" drill="1"/>
+<via x="43.18" y="40.64" extent="1-16" drill="1"/>
+<via x="40.64" y="40.64" extent="1-16" drill="1"/>
+<wire x1="11.43" y1="31.94" x2="11.43" y2="35.56" width="1.27" layer="1"/>
+<wire x1="8.89" y1="35.56" x2="11.43" y2="33.02" width="1.27" layer="1"/>
+<wire x1="11.43" y1="31.94" x2="11.43" y2="33.02" width="1.27" layer="1"/>
+<wire x1="11.43" y1="33.02" x2="13.97" y2="35.56" width="1.27" layer="1"/>
+<wire x1="24.13" y1="31.94" x2="24.13" y2="35.56" width="1.27" layer="1"/>
+<wire x1="24.13" y1="33.02" x2="21.59" y2="35.56" width="1.27" layer="1"/>
+<wire x1="24.13" y1="31.94" x2="24.13" y2="33.02" width="1.27" layer="1"/>
+<wire x1="24.13" y1="33.02" x2="26.67" y2="35.56" width="1.27" layer="1"/>
+<wire x1="36.83" y1="35.56" x2="36.83" y2="31.94" width="1.27" layer="1"/>
+<wire x1="34.29" y1="35.56" x2="36.83" y2="33.02" width="1.27" layer="1"/>
+<wire x1="39.37" y1="35.56" x2="36.83" y2="33.02" width="1.27" layer="1"/>
+<wire x1="36.83" y1="33.02" x2="36.83" y2="31.94" width="1.27" layer="1"/>
+<wire x1="43.18" y1="40.64" x2="43.18" y2="44.26" width="1.27" layer="1"/>
+<wire x1="40.64" y1="40.64" x2="43.18" y2="43.18" width="1.27" layer="1"/>
+<wire x1="45.72" y1="40.64" x2="43.18" y2="43.18" width="1.27" layer="1"/>
+<wire x1="43.18" y1="43.18" x2="43.18" y2="44.26" width="1.27" layer="1"/>
+<wire x1="49.53" y1="33.02" x2="49.53" y2="35.56" width="1.27" layer="1"/>
+<wire x1="46.99" y1="35.56" x2="49.53" y2="33.02" width="1.27" layer="1"/>
+<wire x1="52.07" y1="35.56" x2="49.53" y2="33.02" width="1.27" layer="1"/>
+<wire x1="49.53" y1="33.02" x2="49.53" y2="31.75" width="1.27" layer="1"/>
 <contactref element="MOLEX1" pad="2"/>
 <contactref element="MOLEX2" pad="2"/>
 <contactref element="USB12" pad="S2"/>
@@ -743,7 +743,7 @@ design rules under a new name.</description>
 <contactref element="USB12" pad="8"/>
 <contactref element="USB12" pad="4"/>
 <contactref element="USB34" pad="8"/>
-<wire x1="49.53" y1="34.29" x2="49.53" y2="34.48" width="0" layer="19" extent="1-1"/>
+<wire x1="49.53" y1="31.75" x2="49.53" y2="31.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5VIN">
 <contactref element="F1" pad="2"/>
@@ -765,22 +765,22 @@ design rules under a new name.</description>
 <contactref element="USB12" pad="5"/>
 <contactref element="C1" pad="+"/>
 <contactref element="FL1" pad="1"/>
-<wire x1="49.53" y1="27.94" x2="49.53" y2="26.48" width="1.27" layer="1"/>
+<wire x1="49.53" y1="25.4" x2="49.53" y2="23.94" width="1.27" layer="1"/>
 <contactref element="C2" pad="+"/>
 <contactref element="FL2" pad="1"/>
-<wire x1="43.18" y1="33.555" x2="41.375" y2="31.75" width="1.27" layer="1"/>
-<wire x1="36.83" y1="29.21" x2="36.83" y2="26.48" width="1.27" layer="1"/>
-<wire x1="41.375" y1="31.75" x2="39.37" y2="31.75" width="1.27" layer="1"/>
-<wire x1="39.37" y1="31.75" x2="36.83" y2="29.21" width="1.27" layer="1"/>
-<wire x1="55.88" y1="33.555" x2="54.075" y2="31.75" width="1.27" layer="1"/>
-<wire x1="49.53" y1="29.21" x2="49.53" y2="26.48" width="1.27" layer="1"/>
-<wire x1="54.075" y1="31.75" x2="52.07" y2="31.75" width="1.27" layer="1"/>
-<wire x1="52.07" y1="31.75" x2="49.53" y2="29.21" width="1.27" layer="1"/>
+<wire x1="43.18" y1="31.015" x2="41.375" y2="29.21" width="1.27" layer="1"/>
+<wire x1="36.83" y1="26.67" x2="36.83" y2="23.94" width="1.27" layer="1"/>
+<wire x1="41.375" y1="29.21" x2="39.37" y2="29.21" width="1.27" layer="1"/>
+<wire x1="39.37" y1="29.21" x2="36.83" y2="26.67" width="1.27" layer="1"/>
+<wire x1="55.88" y1="31.015" x2="54.075" y2="29.21" width="1.27" layer="1"/>
+<wire x1="49.53" y1="26.67" x2="49.53" y2="23.94" width="1.27" layer="1"/>
+<wire x1="54.075" y1="29.21" x2="52.07" y2="29.21" width="1.27" layer="1"/>
+<wire x1="52.07" y1="29.21" x2="49.53" y2="26.67" width="1.27" layer="1"/>
 <polygon width="1.27" layer="1">
-<vertex x="33.02" y="27.94"/>
+<vertex x="33.02" y="25.4"/>
 <vertex x="33.02" y="8.89"/>
 <vertex x="53.34" y="8.89"/>
-<vertex x="53.34" y="27.94"/>
+<vertex x="53.34" y="25.4"/>
 </polygon>
 </signal>
 <signal name="5VOUT34">
@@ -790,20 +790,20 @@ design rules under a new name.</description>
 <contactref element="USB34" pad="5"/>
 <contactref element="C4" pad="+"/>
 <contactref element="FL4" pad="1"/>
-<wire x1="17.78" y1="33.555" x2="16.51" y2="32.285" width="1.27" layer="1"/>
-<wire x1="16.51" y1="32.285" x2="14.47519375" y2="32.285" width="1.27" layer="1"/>
-<wire x1="14.47519375" y1="32.285" x2="11.43" y2="30.115" width="1.27" layer="1"/>
-<wire x1="11.43" y1="30.115" x2="11.43" y2="26.48" width="1.27" layer="1"/>
-<wire x1="30.48" y1="33.555" x2="30.48" y2="33.02" width="1.27" layer="1"/>
-<wire x1="30.48" y1="33.02" x2="29.21" y2="31.75" width="1.27" layer="1"/>
-<wire x1="29.21" y1="31.75" x2="26.67" y2="31.75" width="1.27" layer="1"/>
-<wire x1="24.13" y1="29.21" x2="24.13" y2="26.48" width="1.27" layer="1"/>
-<wire x1="26.67" y1="31.75" x2="24.13" y2="29.21" width="1.27" layer="1"/>
+<wire x1="17.78" y1="31.015" x2="16.51" y2="29.745" width="1.27" layer="1"/>
+<wire x1="16.51" y1="29.745" x2="14.47519375" y2="29.745" width="1.27" layer="1"/>
+<wire x1="14.47519375" y1="29.745" x2="11.43" y2="27.575" width="1.27" layer="1"/>
+<wire x1="11.43" y1="27.575" x2="11.43" y2="23.94" width="1.27" layer="1"/>
+<wire x1="30.48" y1="31.015" x2="30.48" y2="30.48" width="1.27" layer="1"/>
+<wire x1="30.48" y1="30.48" x2="29.21" y2="29.21" width="1.27" layer="1"/>
+<wire x1="29.21" y1="29.21" x2="26.67" y2="29.21" width="1.27" layer="1"/>
+<wire x1="24.13" y1="26.67" x2="24.13" y2="23.94" width="1.27" layer="1"/>
+<wire x1="26.67" y1="29.21" x2="24.13" y2="26.67" width="1.27" layer="1"/>
 <polygon width="1.27" layer="1">
-<vertex x="7.62" y="27.94"/>
+<vertex x="7.62" y="25.4"/>
 <vertex x="7.62" y="8.89"/>
 <vertex x="27.94" y="8.89"/>
-<vertex x="27.94" y="27.94"/>
+<vertex x="27.94" y="25.4"/>
 </polygon>
 </signal>
 </signals>
