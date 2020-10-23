@@ -9,7 +9,7 @@
 <grid distance="1.27" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -102,6 +102,7 @@
 <text x="22.86" y="46.99" size="1.27" layer="25" rot="R270">5V</text>
 <text x="68.58" y="48.26" size="1.27" layer="25" rot="R90">5V</text>
 <text x="68.58" y="41.91" size="1.27" layer="25" rot="R90">GND</text>
+<text x="54.61" y="48.26" size="1.778" layer="22" rot="MR0">RasPi Power Board for Bramble Cluster</text>
 </plain>
 <libraries>
 <library name="Connector" urn="urn:adsk.eagle:library:16378166">
