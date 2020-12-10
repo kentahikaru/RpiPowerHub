@@ -306,6 +306,9 @@ UsedLibrary="/mnt/orage/eagle/Libraries/Murata/BLM18PG121SH1D.lbr"
 UsedLibrary="/mnt/orage/eagle/Libraries/SparkFun-Eagle-Libraries/SparkFun-Connectors.lbr"
 UsedLibrary="/mnt/orage/eagle/Libraries/adafruit/adafruit.lbr"
 UsedLibrary="/mnt/orage/eagle/Libraries/Molex/15244441.lbr"
+UsedLibrary="/mnt/orage/eagle/Libraries/TeConnectivity/2portUSB.lbr"
+UsedLibrary="/mnt/orage/eagle/Libraries/TeConnectivity/5787617-1.lbr"
+UsedLibrary="/mnt/orage/eagle/Libraries/TeConnectivity/5787745-1.lbr"
 
 [Win_1]
 Type="Control Panel"

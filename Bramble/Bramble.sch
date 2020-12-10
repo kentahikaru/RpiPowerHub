@@ -83,230 +83,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="Wurth_Connectors_WR-USB" urn="urn:adsk.eagle:library:16513831">
-<description>&lt;BR&gt;Wurth Elektronik - Connectors - Input/Output connectors - WR-USB&lt;br&gt;&lt;Hr&gt;
-
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;
-&lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2020d, 2020-08-17&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="614004134726" urn="urn:adsk.eagle:footprint:16513850/3" library_version="7">
-<description>&lt;B&gt;WR-COM&lt;/B&gt;&lt;BR&gt; USB 2.0 Type A Up Right , 4 pins</description>
-<wire x1="-2.86" y1="9.65" x2="2.86" y2="9.65" width="0.1" layer="51"/>
-<wire x1="2.86" y1="9.65" x2="2.86" y2="-9.65" width="0.1" layer="51"/>
-<wire x1="-2.86" y1="-9.65" x2="-2.86" y2="9.65" width="0.1" layer="51"/>
-<wire x1="-2.86" y1="-9.65" x2="2.86" y2="-9.65" width="0.1" layer="51"/>
-<wire x1="-1.7" y1="9.75" x2="1.7" y2="9.75" width="0.2" layer="21"/>
-<wire x1="-2.96" y1="7.25" x2="-2.96" y2="3.15" width="0.2" layer="21"/>
-<wire x1="2.96" y1="3.15" x2="2.96" y2="7.25" width="0.2" layer="21"/>
-<wire x1="-2.96" y1="0.25" x2="-2.96" y2="-9.75" width="0.2" layer="21"/>
-<wire x1="-2.96" y1="-9.75" x2="2.96" y2="-9.75" width="0.2" layer="21"/>
-<wire x1="2.96" y1="-9.75" x2="2.96" y2="0.25" width="0.2" layer="21"/>
-<pad name="1" x="0" y="2.41" drill="0.92" rot="R90"/>
-<pad name="4" x="0" y="8.41" drill="0.92" rot="R90"/>
-<pad name="2" x="0" y="4.41" drill="0.92" rot="R90"/>
-<pad name="3" x="0" y="6.41" drill="0.92" rot="R90"/>
-<pad name="S4" x="-2.71" y="1.68" drill="1.5" rot="R90"/>
-<pad name="S3" x="2.71" y="1.68" drill="1.5" rot="R90"/>
-<pad name="S1" x="-2.71" y="8.68" drill="1.5" rot="R90"/>
-<pad name="S2" x="2.71" y="8.68" drill="1.5" rot="R90"/>
-<text x="4.808" y="8.8659" size="1.27" layer="25">&gt;NAME</text>
-<text x="4.908" y="6.5166" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="0" y="1.11" radius="0.1" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-2.1" y="9.95"/>
-<vertex x="1.9" y="9.95"/>
-<vertex x="1.9" y="10"/>
-<vertex x="4.05" y="10"/>
-<vertex x="4.05" y="7.35"/>
-<vertex x="3.16" y="7.35"/>
-<vertex x="3.16" y="3"/>
-<vertex x="4.05" y="3"/>
-<vertex x="4.05" y="0.35"/>
-<vertex x="3.16" y="0.35"/>
-<vertex x="3.16" y="-9.95"/>
-<vertex x="-3.16" y="-9.95"/>
-<vertex x="-3.16" y="0.35"/>
-<vertex x="-4.05" y="0.35"/>
-<vertex x="-4.05" y="3"/>
-<vertex x="-3.16" y="3"/>
-<vertex x="-3.16" y="7.35"/>
-<vertex x="-4.05" y="7.35"/>
-<vertex x="-4.05" y="10"/>
-<vertex x="-2.1" y="10"/>
-</polygon>
-</package>
-</packages>
-<packages3d>
-<package3d name="614004134726" urn="urn:adsk.eagle:package:16513918/4" type="model" library_version="7">
-<description>&lt;B&gt;WR-COM&lt;/B&gt;&lt;BR&gt; USB 2.0 Type A Up Right , 4 pins</description>
-<packageinstances>
-<packageinstance name="614004134726"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="USB2.0_TYPEA" urn="urn:adsk.eagle:symbol:16513859/2" library_version="7">
-<description>USB 2.0 Type A</description>
-<text x="-0.12" y="5.89" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-5.05" y="-10.21" size="1.778" layer="96">&gt;VALUE</text>
-<text x="6.51" y="-3.37" size="1.016" layer="94" rot="R90">shield</text>
-<text x="-0.12" y="5.89" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-5.05" y="-10.21" size="1.778" layer="96">&gt;VALUE</text>
-<text x="6.51" y="-3.37" size="1.016" layer="94" rot="R90">shield</text>
-<pin name="GND" x="-10.16" y="-5.08" length="middle"/>
-<pin name="D+" x="-10.16" y="-2.54" length="middle"/>
-<pin name="D-" x="-10.16" y="0" length="middle"/>
-<pin name="VBUS" x="-10.16" y="2.54" length="middle"/>
-<pin name="SHIELD" x="-10.16" y="-7.62" visible="pad" length="middle"/>
-<wire x1="-5.08" y1="-6.985" x2="-5.08" y2="4.445" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="4.445" x2="4.445" y2="4.445" width="0.254" layer="94"/>
-<wire x1="4.445" y1="-6.985" x2="-5.08" y2="-6.985" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94" style="shortdash"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94" style="shortdash"/>
-<wire x1="4.445" y1="4.445" x2="4.445" y2="-6.985" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="614004134726" urn="urn:adsk.eagle:component:16513965/5" prefix="J" library_version="7">
-<description>&lt;B&gt;WR-COM USB 2.0 Type A Up Right 
-&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
-&lt;b&gt;Kind Properties&lt;/b&gt;
-&lt;BR&gt;Durability:1500 Mating cycles
-&lt;BR&gt;Quality Class:1 500 Mating cycles
-&lt;BR&gt;Connector Type:USB 
-&lt;BR&gt;Gender:Receptacle
-&lt;BR&gt;Type:Up Right
-&lt;BR&gt;&lt;BR&gt;
-&lt;b&gt;General Information&lt;/b&gt;
-&lt;BR&gt;Operating Temperature:-40up to +105 °C
-&lt;BR&gt;Compliance:RoHS
-&lt;BR&gt;&lt;BR&gt;
-&lt;b&gt;Electrical Properties&lt;/b&gt;
-&lt;BR&gt;IR 1:1.5 A
-&lt;BR&gt;Working Voltage:30V (AC)
-&lt;BR&gt;Withstanding Voltage:750V (AC)
-&lt;BR&gt;Contact Resistance:20 mΩ&lt;BR&gt;&lt;BR&gt;
-&lt;b&gt;Material Properties
-&lt;/b&gt;&lt;BR&gt;Insulator Material:PBT
-&lt;BR&gt;Insulator Flammability Rating:UL94 V-0
-&lt;BR&gt;Color:White
-&lt;BR&gt;Cover Material:Brass
-&lt;BR&gt;Cover Plating:Nickel
-&lt;BR&gt;Contact Material:Copper Alloy
-&lt;BR&gt;Contact Plating:Selective Gold
-&lt;BR&gt;Contact Type:Stamped
-&lt;BR&gt;Shielding Material:Brass
-&lt;BR&gt;Shielding Plating:Nickel
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32975v209%20Family_WR-COM_614004134726.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o32975v209%20Family_WR-COM_614004134726.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/COM_TYPE_A_UP_RIGHT/"&gt;https://www.we-online.com/catalog/en/COM_TYPE_A_UP_RIGHT/&lt;/a&gt;&lt;p&gt;
-
-Updated by Ella Wu 2020-08-14&lt;br&gt;
-2020 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="USB2.0_TYPEA" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="614004134726">
-<connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4"/>
-<connect gate="G$1" pin="VBUS" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16513918/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="APPLICATION" value="USB 2.0"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/614004134726.pdf"/>
-<attribute name="GERDER" value="Receptacle"/>
-<attribute name="INTERFACE-TYPE" value="Type A"/>
-<attribute name="IR1" value="1.5A"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tray"/>
-<attribute name="PART-NUMBER" value="614004134726"/>
-<attribute name="PINS" value=" 4 "/>
-<attribute name="TYPE" value="Up Right"/>
-<attribute name="VALUE" value="614004134726"/>
-<attribute name="WORKING-VOLTAGE" value="30V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Connector" urn="urn:adsk.eagle:library:16378166">
 <description>&lt;b&gt;Pin Headers,Terminal blocks, D-Sub, Backplane, FFC/FPC, Socket</description>
 <packages>
@@ -503,6 +279,298 @@ Updated by Ella Wu 2020-08-14&lt;br&gt;
 <attribute name="SUB-CATEGORY" value="PIN-HEADER" constant="no"/>
 <attribute name="THERMALLOSS" value="" constant="no"/>
 <attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="cap-vishay-153clv">
+<description>Vishay BC Components
+Aluminium Capacitor Serie 153CLV</description>
+<packages>
+<package name="153CLV-1010">
+<wire x1="-5.1" y1="5.1" x2="2.8" y2="5.1" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="5.1" x2="5.1" y2="2.8" width="0.1016" layer="51"/>
+<wire x1="5.1" y1="2.8" x2="5.1" y2="-2.8" width="0.1016" layer="51"/>
+<wire x1="5.1" y1="-2.8" x2="2.8" y2="-5.1" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="51"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="5.1" width="0.1016" layer="51"/>
+<wire x1="-5.1" y1="1" x2="-5.1" y2="5.1" width="0.1016" layer="21"/>
+<wire x1="-5.1" y1="5.1" x2="2.8" y2="5.1" width="0.1016" layer="21"/>
+<wire x1="2.8" y1="5.1" x2="5.1" y2="2.8" width="0.1016" layer="21"/>
+<wire x1="5.1" y1="2.8" x2="5.1" y2="1" width="0.1016" layer="21"/>
+<wire x1="5.1" y1="-1" x2="5.1" y2="-2.8" width="0.1016" layer="21"/>
+<wire x1="5.1" y1="-2.8" x2="2.8" y2="-5.1" width="0.1016" layer="21"/>
+<wire x1="2.8" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="-1" width="0.1016" layer="21"/>
+<wire x1="-4.85" y1="-1" x2="4.85" y2="-1" width="0.1016" layer="21" curve="156.699401" cap="flat"/>
+<wire x1="-4.85" y1="1" x2="4.85" y2="1" width="0.1016" layer="21" curve="-156.699401" cap="flat"/>
+<wire x1="-3.25" y1="3.7" x2="-3.25" y2="-3.65" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="4.95" width="0.1016" layer="51"/>
+<smd name="-" x="-4" y="0" dx="4" dy="2.6" layer="1"/>
+<smd name="+" x="4" y="0" dx="4" dy="2.6" layer="1"/>
+<text x="-2.55" y="1.75" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.55" y="-2.675" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-5.85" y1="-0.45" x2="-4.9" y2="0.45" layer="51"/>
+<rectangle x1="4.9" y1="-0.45" x2="5.85" y2="0.45" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-3.3" y="3.6"/>
+<vertex x="-4.05" y="2.75"/>
+<vertex x="-4.65" y="1.55"/>
+<vertex x="-4.85" y="0.45"/>
+<vertex x="-4.85" y="-0.45"/>
+<vertex x="-4.65" y="-1.55"/>
+<vertex x="-4.05" y="-2.75"/>
+<vertex x="-3.3" y="-3.6"/>
+<vertex x="-3.3" y="3.55"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="CAPPOL">
+<wire x1="-1.524" y1="1.651" x2="1.524" y2="1.651" width="0.254" layer="94"/>
+<wire x1="1.524" y1="1.651" x2="1.524" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="2.54" x2="-1.524" y2="1.651" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="2.54" x2="1.524" y2="2.54" width="0.254" layer="94"/>
+<text x="1.143" y="3.0226" size="1.778" layer="95">&gt;NAME</text>
+<text x="-0.5842" y="2.9464" size="1.27" layer="94" rot="R90">+</text>
+<text x="1.143" y="-2.0574" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="0" x2="1.651" y2="0.889" layer="94"/>
+<pin name="-" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="+" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CPOL-1010" prefix="C">
+<gates>
+<gate name="G$1" symbol="CAPPOL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="153CLV-1010">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="BLM18PG121SH1D">
+<packages>
+<package name="BEADC1608X95N">
+<text x="-1.49" y="-0.82" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.49" y="0.82" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="0.88" y1="-0.48" x2="-0.88" y2="-0.48" width="0.127" layer="51"/>
+<wire x1="0.88" y1="0.48" x2="-0.88" y2="0.48" width="0.127" layer="51"/>
+<wire x1="0.88" y1="-0.48" x2="0.88" y2="0.48" width="0.127" layer="51"/>
+<wire x1="-0.88" y1="-0.48" x2="-0.88" y2="0.48" width="0.127" layer="51"/>
+<wire x1="-1.485" y1="-0.735" x2="1.485" y2="-0.735" width="0.05" layer="39"/>
+<wire x1="-1.485" y1="0.735" x2="1.485" y2="0.735" width="0.05" layer="39"/>
+<wire x1="-1.485" y1="-0.735" x2="-1.485" y2="0.735" width="0.05" layer="39"/>
+<wire x1="1.485" y1="-0.735" x2="1.485" y2="0.735" width="0.05" layer="39"/>
+<smd name="1" x="-0.735" y="0" dx="1" dy="0.97" layer="1"/>
+<smd name="2" x="0.735" y="0" dx="1" dy="0.97" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BLM18PG121SH1D">
+<wire x1="0" y1="0" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-1.905" x2="3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.905" x2="4.445" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="4.445" y1="-1.905" x2="5.715" y2="1.905" width="0.254" layer="94"/>
+<wire x1="5.715" y1="1.905" x2="6.985" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="6.985" y1="-1.905" x2="8.255" y2="1.905" width="0.254" layer="94"/>
+<wire x1="8.255" y1="1.905" x2="9.525" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="9.525" y1="-1.905" x2="10.16" y2="0" width="0.254" layer="94"/>
+<text x="-12.7044" y="5.08148125" size="2.54148125" layer="95">&gt;NAME</text>
+<text x="-12.71" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
+<wire x1="-12.7" y1="0" x2="-10.16" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-10.16" y1="0" x2="-7.62" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="0" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<pin name="2" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-15.24" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BLM18PG121SH1D" prefix="FL">
+<description>EMI Filter Flat Style SMD &lt;a href="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BLM18PG121SH1D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BEADC1608X95N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Good"/>
+<attribute name="DESCRIPTION" value=" 120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm "/>
+<attribute name="MF" value="Murata Electronics"/>
+<attribute name="MP" value="BLM18PG121SH1D"/>
+<attribute name="PACKAGE" value="1608 Murata"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="15244441">
+<packages>
+<package name="MOLEX_15244441">
+<text x="-12.0196" y="8.0131" size="1.27208125" layer="25">&gt;NAME</text>
+<text x="-12.0143" y="-10.0119" size="1.271509375" layer="27">&gt;VALUE</text>
+<pad name="1" x="-7.6" y="-6" drill="1.6" shape="octagon"/>
+<pad name="2" x="-2.5199" y="-5.9993" drill="1.6" shape="octagon"/>
+<pad name="3" x="2.562" y="-5.9999" drill="1.6" shape="octagon"/>
+<pad name="4" x="7.6421" y="-5.9992" drill="1.6" shape="octagon"/>
+<hole x="-10.14" y="-3.4607" drill="2.59"/>
+<hole x="10.1812" y="-3.4601" drill="2.59"/>
+<hole x="-5.0599" y="4.1582" drill="3.99"/>
+<hole x="5.0979" y="4.1575" drill="3.99"/>
+</package>
+</packages>
+<symbols>
+<symbol name="15244441">
+<wire x1="-2.794" y1="3.81" x2="-0.254" y2="3.81" width="0.6096" layer="94"/>
+<wire x1="-2.794" y1="1.27" x2="-0.254" y2="1.27" width="0.6096" layer="94"/>
+<wire x1="-2.794" y1="-1.27" x2="-0.254" y2="-1.27" width="0.6096" layer="94"/>
+<wire x1="-2.794" y1="-3.81" x2="-0.254" y2="-3.81" width="0.6096" layer="94"/>
+<wire x1="-5.334" y1="6.35" x2="-5.334" y2="-6.35" width="0" layer="94"/>
+<wire x1="-5.334" y1="-6.35" x2="2.286" y2="-6.35" width="0" layer="94"/>
+<wire x1="2.286" y1="-6.35" x2="2.286" y2="6.35" width="0" layer="94"/>
+<wire x1="2.286" y1="6.35" x2="-5.334" y2="6.35" width="0" layer="94"/>
+<text x="-5.08083125" y="7.621240625" size="1.270209375" layer="95">&gt;NAME</text>
+<text x="-5.08691875" y="-10.1738" size="1.27173125" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.874" y="3.81" length="middle" direction="pas"/>
+<pin name="2" x="-7.874" y="1.27" length="middle" direction="pas"/>
+<pin name="3" x="-7.874" y="-1.27" length="middle" direction="pas"/>
+<pin name="4" x="-7.874" y="-3.81" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="15244441">
+<description>Conn Disk Drive Power HDR 4 POS 5.08mm Solder RA Thru-Hole 4 Terminal 1 Port Tray &lt;a href="https://pricing.snapeda.com/search/part/15-24-4441/?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="15244441" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX_15244441">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Bad"/>
+<attribute name="DESCRIPTION" value=" Connector Header Through Hole, Right Angle 4 position 0.200 (5.08mm) "/>
+<attribute name="MF" value="Molex"/>
+<attribute name="MP" value="15-24-4441"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="5787745-1">
+<packages>
+<package name="TE_5787745-1">
+<wire x1="-6.565" y1="6.72" x2="6.565" y2="6.72" width="0.127" layer="51"/>
+<wire x1="6.565" y1="6.72" x2="6.565" y2="-10.28" width="0.127" layer="51"/>
+<wire x1="6.565" y1="-10.28" x2="-6.565" y2="-10.28" width="0.127" layer="51"/>
+<wire x1="-6.565" y1="-10.28" x2="-6.565" y2="6.72" width="0.127" layer="51"/>
+<wire x1="-4.7" y1="6.72" x2="4.7" y2="6.72" width="0.127" layer="21"/>
+<wire x1="-6.565" y1="-2" x2="-6.565" y2="-10.28" width="0.127" layer="21"/>
+<wire x1="-6.565" y1="-10.28" x2="6.565" y2="-10.28" width="0.127" layer="21"/>
+<wire x1="6.565" y1="-10.28" x2="6.565" y2="-2" width="0.127" layer="21"/>
+<circle x="-3.7" y="7.2" radius="0.14" width="0.28" layer="21"/>
+<wire x1="-8.48" y1="7.59" x2="8.48" y2="7.59" width="0.05" layer="39"/>
+<wire x1="8.48" y1="7.59" x2="8.48" y2="-10.53" width="0.05" layer="39"/>
+<wire x1="8.48" y1="-10.53" x2="-8.48" y2="-10.53" width="0.05" layer="39"/>
+<wire x1="-8.48" y1="-10.53" x2="-8.48" y2="7.59" width="0.05" layer="39"/>
+<text x="-6.36216875" y="7.634609375" size="1.27243125" layer="25">&gt;NAME</text>
+<text x="-6.35031875" y="-12.0656" size="1.270059375" layer="27">&gt;VALUE</text>
+<pad name="1" x="-3.5" y="5.33" drill="0.92" shape="square"/>
+<pad name="2" x="-1" y="5.33" drill="0.92"/>
+<pad name="3" x="1" y="5.33" drill="0.92"/>
+<pad name="4" x="3.5" y="5.33" drill="0.92"/>
+<pad name="5" x="-3.5" y="2.71" drill="0.92"/>
+<pad name="6" x="-1" y="2.71" drill="0.92"/>
+<pad name="7" x="1" y="2.71" drill="0.92"/>
+<pad name="8" x="3.5" y="2.71" drill="0.92"/>
+<pad name="S1" x="-6.57" y="5.68" drill="2.3"/>
+<pad name="S2" x="-6.57" y="0" drill="2.3"/>
+<pad name="S4" x="6.57" y="0" drill="2.3"/>
+<pad name="S3" x="6.57" y="5.68" drill="2.3"/>
+</package>
+</packages>
+<symbols>
+<symbol name="5787745-1">
+<wire x1="-5.08" y1="-15.24" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
+<text x="-5.080109375" y="15.8753" size="1.778040625" layer="95">&gt;NAME</text>
+<text x="-5.08351875" y="-17.7923" size="1.77923125" layer="96">&gt;VALUE</text>
+<pin name="VUSB1" x="-10.16" y="12.7" length="middle" direction="pas"/>
+<pin name="D1-" x="-10.16" y="10.16" length="middle" direction="pas"/>
+<pin name="D1+" x="-10.16" y="7.62" length="middle" direction="pas"/>
+<pin name="GND1" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="SHIELD" x="-10.16" y="-12.7" length="middle" direction="pas"/>
+<pin name="VUSB2" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="D2-" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+<pin name="D2+" x="-10.16" y="-5.08" length="middle" direction="pas"/>
+<pin name="GND2" x="-10.16" y="-7.62" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="5787745-1" prefix="J">
+<description>Conn USB 2.0 Type A RCP/RCP 4/4 POS Solder RA Thru-Hole 8 Terminal 2 Port Tray &lt;a href="https://pricing.snapeda.com/search/part/5787745-1/?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="5787745-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TE_5787745-1">
+<connects>
+<connect gate="G$1" pin="D1+" pad="3"/>
+<connect gate="G$1" pin="D1-" pad="2"/>
+<connect gate="G$1" pin="D2+" pad="7"/>
+<connect gate="G$1" pin="D2-" pad="6"/>
+<connect gate="G$1" pin="GND1" pad="4"/>
+<connect gate="G$1" pin="GND2" pad="8"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4"/>
+<connect gate="G$1" pin="VUSB1" pad="1"/>
+<connect gate="G$1" pin="VUSB2" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Good"/>
+<attribute name="COMMENT" value="5787745-1"/>
+<attribute name="DESCRIPTION" value=" Conn USB 2.0 Type A RCP/RCP 4/4 POS Solder RA Thru-Hole 8 Terminal 2 Port Tray "/>
+<attribute name="EU_ROHS_COMPLIANCE" value="Compliant"/>
+<attribute name="MF" value="TE Connectivity"/>
+<attribute name="MP" value="5787745-1"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/5787745-1/?ref=eda"/>
 </technology>
 </technologies>
 </device>
@@ -2329,210 +2397,6 @@ Wickmann</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="cap-vishay-153clv">
-<description>Vishay BC Components
-Aluminium Capacitor Serie 153CLV</description>
-<packages>
-<package name="153CLV-1010">
-<wire x1="-5.1" y1="5.1" x2="2.8" y2="5.1" width="0.1016" layer="51"/>
-<wire x1="2.8" y1="5.1" x2="5.1" y2="2.8" width="0.1016" layer="51"/>
-<wire x1="5.1" y1="2.8" x2="5.1" y2="-2.8" width="0.1016" layer="51"/>
-<wire x1="5.1" y1="-2.8" x2="2.8" y2="-5.1" width="0.1016" layer="51"/>
-<wire x1="2.8" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="51"/>
-<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="5.1" width="0.1016" layer="51"/>
-<wire x1="-5.1" y1="1" x2="-5.1" y2="5.1" width="0.1016" layer="21"/>
-<wire x1="-5.1" y1="5.1" x2="2.8" y2="5.1" width="0.1016" layer="21"/>
-<wire x1="2.8" y1="5.1" x2="5.1" y2="2.8" width="0.1016" layer="21"/>
-<wire x1="5.1" y1="2.8" x2="5.1" y2="1" width="0.1016" layer="21"/>
-<wire x1="5.1" y1="-1" x2="5.1" y2="-2.8" width="0.1016" layer="21"/>
-<wire x1="5.1" y1="-2.8" x2="2.8" y2="-5.1" width="0.1016" layer="21"/>
-<wire x1="2.8" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="21"/>
-<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="-1" width="0.1016" layer="21"/>
-<wire x1="-4.85" y1="-1" x2="4.85" y2="-1" width="0.1016" layer="21" curve="156.699401" cap="flat"/>
-<wire x1="-4.85" y1="1" x2="4.85" y2="1" width="0.1016" layer="21" curve="-156.699401" cap="flat"/>
-<wire x1="-3.25" y1="3.7" x2="-3.25" y2="-3.65" width="0.1016" layer="51"/>
-<circle x="0" y="0" radius="4.95" width="0.1016" layer="51"/>
-<smd name="-" x="-4" y="0" dx="4" dy="2.6" layer="1"/>
-<smd name="+" x="4" y="0" dx="4" dy="2.6" layer="1"/>
-<text x="-2.55" y="1.75" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.55" y="-2.675" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-5.85" y1="-0.45" x2="-4.9" y2="0.45" layer="51"/>
-<rectangle x1="4.9" y1="-0.45" x2="5.85" y2="0.45" layer="51"/>
-<polygon width="0.1016" layer="51">
-<vertex x="-3.3" y="3.6"/>
-<vertex x="-4.05" y="2.75"/>
-<vertex x="-4.65" y="1.55"/>
-<vertex x="-4.85" y="0.45"/>
-<vertex x="-4.85" y="-0.45"/>
-<vertex x="-4.65" y="-1.55"/>
-<vertex x="-4.05" y="-2.75"/>
-<vertex x="-3.3" y="-3.6"/>
-<vertex x="-3.3" y="3.55"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="CAPPOL">
-<wire x1="-1.524" y1="1.651" x2="1.524" y2="1.651" width="0.254" layer="94"/>
-<wire x1="1.524" y1="1.651" x2="1.524" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="2.54" x2="-1.524" y2="1.651" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="2.54" x2="1.524" y2="2.54" width="0.254" layer="94"/>
-<text x="1.143" y="3.0226" size="1.778" layer="95">&gt;NAME</text>
-<text x="-0.5842" y="2.9464" size="1.27" layer="94" rot="R90">+</text>
-<text x="1.143" y="-2.0574" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="0" x2="1.651" y2="0.889" layer="94"/>
-<pin name="-" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="+" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CPOL-1010" prefix="C">
-<gates>
-<gate name="G$1" symbol="CAPPOL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="153CLV-1010">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="BLM18PG121SH1D">
-<packages>
-<package name="BEADC1608X95N">
-<text x="-1.49" y="-0.82" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-1.49" y="0.82" size="0.5" layer="25">&gt;NAME</text>
-<wire x1="0.88" y1="-0.48" x2="-0.88" y2="-0.48" width="0.127" layer="51"/>
-<wire x1="0.88" y1="0.48" x2="-0.88" y2="0.48" width="0.127" layer="51"/>
-<wire x1="0.88" y1="-0.48" x2="0.88" y2="0.48" width="0.127" layer="51"/>
-<wire x1="-0.88" y1="-0.48" x2="-0.88" y2="0.48" width="0.127" layer="51"/>
-<wire x1="-1.485" y1="-0.735" x2="1.485" y2="-0.735" width="0.05" layer="39"/>
-<wire x1="-1.485" y1="0.735" x2="1.485" y2="0.735" width="0.05" layer="39"/>
-<wire x1="-1.485" y1="-0.735" x2="-1.485" y2="0.735" width="0.05" layer="39"/>
-<wire x1="1.485" y1="-0.735" x2="1.485" y2="0.735" width="0.05" layer="39"/>
-<smd name="1" x="-0.735" y="0" dx="1" dy="0.97" layer="1"/>
-<smd name="2" x="0.735" y="0" dx="1" dy="0.97" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="BLM18PG121SH1D">
-<wire x1="0" y1="0" x2="0.635" y2="1.905" width="0.254" layer="94"/>
-<wire x1="0.635" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-1.905" x2="3.175" y2="1.905" width="0.254" layer="94"/>
-<wire x1="3.175" y1="1.905" x2="4.445" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="4.445" y1="-1.905" x2="5.715" y2="1.905" width="0.254" layer="94"/>
-<wire x1="5.715" y1="1.905" x2="6.985" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="6.985" y1="-1.905" x2="8.255" y2="1.905" width="0.254" layer="94"/>
-<wire x1="8.255" y1="1.905" x2="9.525" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="9.525" y1="-1.905" x2="10.16" y2="0" width="0.254" layer="94"/>
-<text x="-12.7044" y="5.08148125" size="2.54148125" layer="95">&gt;NAME</text>
-<text x="-12.71" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
-<wire x1="-12.7" y1="0" x2="-10.16" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-10.16" y1="0" x2="-7.62" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-7.62" y1="0" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<pin name="2" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="1" x="-15.24" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BLM18PG121SH1D" prefix="FL">
-<description>EMI Filter Flat Style SMD &lt;a href="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda"&gt;Check prices&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="BLM18PG121SH1D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BEADC1608X95N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Good"/>
-<attribute name="DESCRIPTION" value=" 120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm "/>
-<attribute name="MF" value="Murata Electronics"/>
-<attribute name="MP" value="BLM18PG121SH1D"/>
-<attribute name="PACKAGE" value="1608 Murata"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="15244441">
-<packages>
-<package name="MOLEX_15244441">
-<text x="-12.0196" y="8.0131" size="1.27208125" layer="25">&gt;NAME</text>
-<text x="-12.0143" y="-10.0119" size="1.271509375" layer="27">&gt;VALUE</text>
-<pad name="1" x="-7.6" y="-6" drill="1.6" shape="octagon"/>
-<pad name="2" x="-2.5199" y="-5.9993" drill="1.6" shape="octagon"/>
-<pad name="3" x="2.562" y="-5.9999" drill="1.6" shape="octagon"/>
-<pad name="4" x="7.6421" y="-5.9992" drill="1.6" shape="octagon"/>
-<hole x="-10.14" y="-3.4607" drill="2.59"/>
-<hole x="10.1812" y="-3.4601" drill="2.59"/>
-<hole x="-5.0599" y="4.1582" drill="3.99"/>
-<hole x="5.0979" y="4.1575" drill="3.99"/>
-</package>
-</packages>
-<symbols>
-<symbol name="15244441">
-<wire x1="-2.794" y1="3.81" x2="-0.254" y2="3.81" width="0.6096" layer="94"/>
-<wire x1="-2.794" y1="1.27" x2="-0.254" y2="1.27" width="0.6096" layer="94"/>
-<wire x1="-2.794" y1="-1.27" x2="-0.254" y2="-1.27" width="0.6096" layer="94"/>
-<wire x1="-2.794" y1="-3.81" x2="-0.254" y2="-3.81" width="0.6096" layer="94"/>
-<wire x1="-5.334" y1="6.35" x2="-5.334" y2="-6.35" width="0" layer="94"/>
-<wire x1="-5.334" y1="-6.35" x2="2.286" y2="-6.35" width="0" layer="94"/>
-<wire x1="2.286" y1="-6.35" x2="2.286" y2="6.35" width="0" layer="94"/>
-<wire x1="2.286" y1="6.35" x2="-5.334" y2="6.35" width="0" layer="94"/>
-<text x="-5.08083125" y="7.621240625" size="1.270209375" layer="95">&gt;NAME</text>
-<text x="-5.08691875" y="-10.1738" size="1.27173125" layer="96">&gt;VALUE</text>
-<pin name="1" x="-7.874" y="3.81" length="middle" direction="pas"/>
-<pin name="2" x="-7.874" y="1.27" length="middle" direction="pas"/>
-<pin name="3" x="-7.874" y="-1.27" length="middle" direction="pas"/>
-<pin name="4" x="-7.874" y="-3.81" length="middle" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="15244441">
-<description>Conn Disk Drive Power HDR 4 POS 5.08mm Solder RA Thru-Hole 4 Terminal 1 Port Tray &lt;a href="https://pricing.snapeda.com/search/part/15-24-4441/?ref=eda"&gt;Check prices&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="15244441" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MOLEX_15244441">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Bad"/>
-<attribute name="DESCRIPTION" value=" Connector Header Through Hole, Right Angle 4 position 0.200 (5.08mm) "/>
-<attribute name="MF" value="Molex"/>
-<attribute name="MP" value="15-24-4441"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2543,11 +2407,6 @@ Aluminium Capacitor Serie 153CLV</description>
 </class>
 </classes>
 <parts>
-<part name="PWR1" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
-<part name="PWR2" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
-<part name="PWR3" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
-<part name="PWR4" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="614004134726" device="" package3d_urn="urn:adsk.eagle:package:16513918/4" value="614004134726"/>
-<part name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="FUSE" device="BLANK_5X20MM" package3d_urn="urn:adsk.eagle:package:14079/1"/>
 <part name="JP1" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="PINHD-2X4" device="/90" package3d_urn="urn:adsk.eagle:package:22465/2"/>
 <part name="C1" library="cap-vishay-153clv" deviceset="CPOL-1010" device=""/>
 <part name="C2" library="cap-vishay-153clv" deviceset="CPOL-1010" device=""/>
@@ -2560,40 +2419,15 @@ Aluminium Capacitor Serie 153CLV</description>
 <part name="FL4" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device="" value="BLM18KG121TN1D"/>
 <part name="MOLEX1" library="15244441" deviceset="15244441" device=""/>
 <part name="MOLEX2" library="15244441" deviceset="15244441" device=""/>
+<part name="USB12" library="5787745-1" deviceset="5787745-1" device=""/>
+<part name="USB34" library="5787745-1" deviceset="5787745-1" device=""/>
+<part name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="FUSE" device="SH22,5" package3d_urn="urn:adsk.eagle:package:14059/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="PWR1" gate="G$1" x="-7.62" y="66.04" smashed="yes" rot="R180">
-<attribute name="NAME" x="-7.5" y="60.15" size="1.778" layer="95" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="-2.57" y="76.25" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="-7.5" y="60.15" size="1.778" layer="95" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="-2.57" y="76.25" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="PWR2" gate="G$1" x="-7.62" y="45.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="-7.5" y="39.83" size="1.778" layer="95" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="-2.57" y="55.93" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="-7.5" y="39.83" size="1.778" layer="95" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="-2.57" y="55.93" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="PWR3" gate="G$1" x="-7.62" y="27.94" smashed="yes" rot="R180">
-<attribute name="NAME" x="-7.5" y="22.05" size="1.778" layer="95" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="-2.57" y="38.15" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="-7.5" y="22.05" size="1.778" layer="95" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="-2.57" y="38.15" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="PWR4" gate="G$1" x="-7.62" y="5.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="-7.5" y="-0.81" size="1.778" layer="95" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="-2.57" y="15.29" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="-7.5" y="-0.81" size="1.778" layer="95" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="-2.57" y="15.29" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="F1" gate="G$1" x="88.9" y="73.66" smashed="yes">
-<attribute name="NAME" x="85.09" y="75.057" size="1.778" layer="95"/>
-<attribute name="VALUE" x="85.09" y="70.739" size="1.778" layer="96"/>
-</instance>
 <instance part="JP1" gate="A" x="93.98" y="20.32" smashed="yes">
 <attribute name="NAME" x="87.63" y="28.575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="87.63" y="12.7" size="1.778" layer="96"/>
@@ -2640,6 +2474,18 @@ Aluminium Capacitor Serie 153CLV</description>
 <instance part="MOLEX2" gate="G$1" x="142.24" y="68.58" smashed="yes">
 <attribute name="NAME" x="142.23916875" y="76.201240625" size="1.270209375" layer="95"/>
 </instance>
+<instance part="USB12" gate="G$1" x="-20.32" y="55.88" smashed="yes">
+<attribute name="NAME" x="-25.400109375" y="71.7553" size="1.778040625" layer="95"/>
+<attribute name="VALUE" x="-25.40351875" y="38.0877" size="1.77923125" layer="96"/>
+</instance>
+<instance part="USB34" gate="G$1" x="-20.32" y="15.24" smashed="yes">
+<attribute name="NAME" x="-25.400109375" y="31.1153" size="1.778040625" layer="95"/>
+<attribute name="VALUE" x="-25.40351875" y="-2.5523" size="1.77923125" layer="96"/>
+</instance>
+<instance part="F1" gate="G$1" x="88.9" y="73.66" smashed="yes">
+<attribute name="NAME" x="85.09" y="75.057" size="1.778" layer="95"/>
+<attribute name="VALUE" x="85.09" y="70.739" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2653,8 +2499,8 @@ Aluminium Capacitor Serie 153CLV</description>
 </segment>
 <segment>
 <label x="76.2" y="73.66" size="1.778" layer="95"/>
-<pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="F1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <label x="43.18" y="43.18" size="1.778" layer="95"/>
@@ -2693,39 +2539,23 @@ Aluminium Capacitor Serie 153CLV</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="PWR1" gate="G$1" pin="GND"/>
-<wire x1="2.54" y1="71.12" x2="7.62" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="71.12" x2="7.62" y2="71.12" width="0.1524" layer="91"/>
 <label x="5.08" y="71.12" size="1.778" layer="95"/>
-<pinref part="PWR1" gate="G$1" pin="SHIELD"/>
-<wire x1="2.54" y1="73.66" x2="2.54" y2="71.12" width="0.1524" layer="91"/>
-<junction x="2.54" y="71.12"/>
 <pinref part="C1" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<wire x1="2.54" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="PWR2" gate="G$1" pin="GND"/>
+<wire x1="0" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
 <label x="5.08" y="50.8" size="1.778" layer="95"/>
-<pinref part="PWR2" gate="G$1" pin="SHIELD"/>
-<wire x1="2.54" y1="53.34" x2="2.54" y2="50.8" width="0.1524" layer="91"/>
-<junction x="2.54" y="50.8"/>
 <pinref part="C2" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<wire x1="2.54" y1="33.02" x2="7.62" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="PWR3" gate="G$1" pin="GND"/>
+<wire x1="0" y1="33.02" x2="7.62" y2="33.02" width="0.1524" layer="91"/>
 <label x="5.08" y="33.02" size="1.778" layer="95"/>
-<pinref part="PWR3" gate="G$1" pin="SHIELD"/>
-<wire x1="2.54" y1="35.56" x2="2.54" y2="33.02" width="0.1524" layer="91"/>
-<junction x="2.54" y="33.02"/>
 <pinref part="C3" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<wire x1="2.54" y1="10.16" x2="7.62" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="PWR4" gate="G$1" pin="GND"/>
+<wire x1="-2.54" y1="10.16" x2="7.62" y2="10.16" width="0.1524" layer="91"/>
 <label x="5.08" y="10.16" size="1.778" layer="95"/>
-<pinref part="PWR4" gate="G$1" pin="SHIELD"/>
-<wire x1="2.54" y1="12.7" x2="2.54" y2="10.16" width="0.1524" layer="91"/>
-<junction x="2.54" y="10.16"/>
 <pinref part="C4" gate="G$1" pin="-"/>
 </segment>
 <segment>
@@ -2759,50 +2589,39 @@ Aluminium Capacitor Serie 153CLV</description>
 <pinref part="C5" gate="G$1" pin="-"/>
 <junction x="91.44" y="48.26"/>
 </segment>
-</net>
-<net name="N$1" class="0">
 <segment>
-<pinref part="PWR1" gate="G$1" pin="VBUS"/>
-<wire x1="2.54" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="7.62" y1="63.5" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
-<junction x="7.62" y="63.5"/>
-<pinref part="FL1" gate="G$1" pin="1"/>
+<wire x1="-35.56" y1="43.18" x2="-30.48" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="USB12" gate="G$1" pin="SHIELD"/>
+<label x="-38.1" y="43.18" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$2" class="0">
 <segment>
-<pinref part="PWR2" gate="G$1" pin="VBUS"/>
-<wire x1="2.54" y1="43.18" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="+"/>
-<wire x1="7.62" y1="43.18" x2="10.16" y2="43.18" width="0.1524" layer="91"/>
-<junction x="7.62" y="43.18"/>
-<pinref part="FL2" gate="G$1" pin="1"/>
+<wire x1="-35.56" y1="2.54" x2="-30.48" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="USB34" gate="G$1" pin="SHIELD"/>
+<label x="-38.1" y="2.54" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$3" class="0">
 <segment>
-<pinref part="PWR4" gate="G$1" pin="VBUS"/>
-<wire x1="2.54" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="+"/>
-<wire x1="7.62" y1="2.54" x2="10.16" y2="2.54" width="0.1524" layer="91"/>
-<junction x="7.62" y="2.54"/>
-<pinref part="FL4" gate="G$1" pin="1"/>
+<wire x1="-35.56" y1="20.32" x2="-30.48" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="USB34" gate="G$1" pin="GND1"/>
+<label x="-38.1" y="20.32" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$4" class="0">
 <segment>
-<pinref part="PWR3" gate="G$1" pin="VBUS"/>
-<wire x1="2.54" y1="25.4" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="+"/>
-<wire x1="7.62" y1="25.4" x2="10.16" y2="25.4" width="0.1524" layer="91"/>
-<junction x="7.62" y="25.4"/>
-<pinref part="FL3" gate="G$1" pin="1"/>
+<wire x1="-35.56" y1="48.26" x2="-30.48" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="USB12" gate="G$1" pin="GND2"/>
+<label x="-35.56" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-35.56" y1="60.96" x2="-30.48" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="USB12" gate="G$1" pin="GND1"/>
+<label x="-38.1" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-35.56" y1="7.62" x2="-30.48" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="USB34" gate="G$1" pin="GND2"/>
+<label x="-35.56" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5VIN" class="0">
 <segment>
-<pinref part="F1" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="MOLEX1" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="73.66" x2="108.966" y2="73.66" width="0.1524" layer="91"/>
@@ -2813,6 +2632,63 @@ Aluminium Capacitor Serie 153CLV</description>
 <wire x1="106.68" y1="76.2" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
 <junction x="106.68" y="73.66"/>
 <label x="109.22" y="76.2" size="1.778" layer="95"/>
+<pinref part="F1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="5VOUT12" class="0">
+<segment>
+<wire x1="-35.56" y1="68.58" x2="-30.48" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="USB12" gate="G$1" pin="VUSB1"/>
+<label x="-38.1" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-35.56" y1="55.88" x2="-30.48" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="USB12" gate="G$1" pin="VUSB2"/>
+<label x="-38.1" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-7.62" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="+"/>
+<wire x1="7.62" y1="63.5" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
+<junction x="7.62" y="63.5"/>
+<pinref part="FL1" gate="G$1" pin="1"/>
+<label x="-7.62" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-7.62" y1="43.18" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="+"/>
+<wire x1="7.62" y1="43.18" x2="10.16" y2="43.18" width="0.1524" layer="91"/>
+<junction x="7.62" y="43.18"/>
+<pinref part="FL2" gate="G$1" pin="1"/>
+<label x="-7.62" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="5VOUT34" class="0">
+<segment>
+<wire x1="-35.56" y1="27.94" x2="-30.48" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="USB34" gate="G$1" pin="VUSB1"/>
+<label x="-38.1" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-7.62" y1="25.4" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="+"/>
+<wire x1="7.62" y1="25.4" x2="10.16" y2="25.4" width="0.1524" layer="91"/>
+<junction x="7.62" y="25.4"/>
+<pinref part="FL3" gate="G$1" pin="1"/>
+<label x="-7.62" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-35.56" y1="15.24" x2="-30.48" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="USB34" gate="G$1" pin="VUSB2"/>
+<label x="-38.1" y="15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="+"/>
+<wire x1="7.62" y1="2.54" x2="10.16" y2="2.54" width="0.1524" layer="91"/>
+<junction x="7.62" y="2.54"/>
+<pinref part="FL4" gate="G$1" pin="1"/>
+<label x="-7.62" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
