@@ -1,5 +1,9 @@
 # RpiPowerBoard
 
+# How To use
+![alt text](Bramble/img/howtouse1.jpg "How to use") | ![alt text](Bramble/img/howtouse2.jpg "How to use") | ![alt text](Bramble/img/howtouse3.jpg "How to use")
+--- | --- | ---
+
 # Design
 ## Schematics
 ![alt text](Bramble/img/schematics.png "Schematics")
