@@ -4,6 +4,10 @@
 ![alt text](Bramble/img/howtouse1.jpg "How to use") | ![alt text](Bramble/img/howtouse2.jpg "How to use") | ![alt text](Bramble/img/howtouse3.jpg "How to use")
 --- | --- | ---
 
+# Assembly
+![alt text](Bramble/img/assembly1.jpg "Assembly") | ![alt text](Bramble/img/assembly2.jpg "assembly")
+--- | ---
+
 # Design
 ## Schematics
 ![alt text](Bramble/img/schematics.png "Schematics")
