@@ -361,73 +361,6 @@ Aluminium Capacitor Serie 153CLV</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="BLM18PG121SH1D">
-<packages>
-<package name="BEADC1608X95N">
-<text x="-1.49" y="-0.82" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-1.49" y="0.82" size="0.5" layer="25">&gt;NAME</text>
-<wire x1="0.88" y1="-0.48" x2="-0.88" y2="-0.48" width="0.127" layer="51"/>
-<wire x1="0.88" y1="0.48" x2="-0.88" y2="0.48" width="0.127" layer="51"/>
-<wire x1="0.88" y1="-0.48" x2="0.88" y2="0.48" width="0.127" layer="51"/>
-<wire x1="-0.88" y1="-0.48" x2="-0.88" y2="0.48" width="0.127" layer="51"/>
-<wire x1="-1.485" y1="-0.735" x2="1.485" y2="-0.735" width="0.05" layer="39"/>
-<wire x1="-1.485" y1="0.735" x2="1.485" y2="0.735" width="0.05" layer="39"/>
-<wire x1="-1.485" y1="-0.735" x2="-1.485" y2="0.735" width="0.05" layer="39"/>
-<wire x1="1.485" y1="-0.735" x2="1.485" y2="0.735" width="0.05" layer="39"/>
-<smd name="1" x="-0.735" y="0" dx="1" dy="0.97" layer="1"/>
-<smd name="2" x="0.735" y="0" dx="1" dy="0.97" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="BLM18PG121SH1D">
-<wire x1="0" y1="0" x2="0.635" y2="1.905" width="0.254" layer="94"/>
-<wire x1="0.635" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-1.905" x2="3.175" y2="1.905" width="0.254" layer="94"/>
-<wire x1="3.175" y1="1.905" x2="4.445" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="4.445" y1="-1.905" x2="5.715" y2="1.905" width="0.254" layer="94"/>
-<wire x1="5.715" y1="1.905" x2="6.985" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="6.985" y1="-1.905" x2="8.255" y2="1.905" width="0.254" layer="94"/>
-<wire x1="8.255" y1="1.905" x2="9.525" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="9.525" y1="-1.905" x2="10.16" y2="0" width="0.254" layer="94"/>
-<text x="-12.7044" y="5.08148125" size="2.54148125" layer="95">&gt;NAME</text>
-<text x="-12.71" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
-<wire x1="-12.7" y1="0" x2="-10.16" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-10.16" y1="0" x2="-7.62" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-7.62" y1="0" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<pin name="2" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="1" x="-15.24" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BLM18PG121SH1D" prefix="FL">
-<description>EMI Filter Flat Style SMD &lt;a href="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda"&gt;Check prices&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="BLM18PG121SH1D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BEADC1608X95N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Good"/>
-<attribute name="DESCRIPTION" value=" 120 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2A 50mOhm "/>
-<attribute name="MF" value="Murata Electronics"/>
-<attribute name="MP" value="BLM18PG121SH1D"/>
-<attribute name="PACKAGE" value="1608 Murata"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BLM18PG121SH1D/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="15244441">
 <packages>
 <package name="MOLEX_15244441">
@@ -2413,10 +2346,6 @@ Wickmann</description>
 <part name="C3" library="cap-vishay-153clv" deviceset="CPOL-1010" device=""/>
 <part name="C4" library="cap-vishay-153clv" deviceset="CPOL-1010" device=""/>
 <part name="C5" library="cap-vishay-153clv" deviceset="CPOL-1010" device=""/>
-<part name="FL1" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device="" value="BLM18KG121TN1D"/>
-<part name="FL2" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device="" value="BLM18KG121TN1D"/>
-<part name="FL3" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device="" value="BLM18KG121TN1D"/>
-<part name="FL4" library="BLM18PG121SH1D" deviceset="BLM18PG121SH1D" device="" value="BLM18KG121TN1D"/>
 <part name="MOLEX1" library="15244441" deviceset="15244441" device=""/>
 <part name="MOLEX2" library="15244441" deviceset="15244441" device=""/>
 <part name="USB12" library="5787745-1" deviceset="5787745-1" device=""/>
@@ -2452,22 +2381,6 @@ Wickmann</description>
 <attribute name="NAME" x="97.0026" y="47.117" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="91.9226" y="47.117" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="FL1" gate="G$1" x="25.4" y="63.5" smashed="yes">
-<attribute name="NAME" x="12.6956" y="68.58148125" size="2.54148125" layer="95"/>
-<attribute name="VALUE" x="12.69" y="58.413359375" size="2.54331875" layer="96"/>
-</instance>
-<instance part="FL2" gate="G$1" x="25.4" y="43.18" smashed="yes">
-<attribute name="NAME" x="12.6956" y="48.26148125" size="2.54148125" layer="95"/>
-<attribute name="VALUE" x="12.69" y="38.093359375" size="2.54331875" layer="96"/>
-</instance>
-<instance part="FL3" gate="G$1" x="25.4" y="25.4" smashed="yes">
-<attribute name="NAME" x="12.6956" y="30.48148125" size="2.54148125" layer="95"/>
-<attribute name="VALUE" x="12.69" y="20.313359375" size="2.54331875" layer="96"/>
-</instance>
-<instance part="FL4" gate="G$1" x="25.4" y="2.54" smashed="yes">
-<attribute name="NAME" x="12.6956" y="7.62148125" size="2.54148125" layer="95"/>
-<attribute name="VALUE" x="12.69" y="-2.546640625" size="2.54331875" layer="96"/>
-</instance>
 <instance part="MOLEX1" gate="G$1" x="116.84" y="68.58" smashed="yes">
 <attribute name="NAME" x="119.37916875" y="66.041240625" size="1.270209375" layer="95"/>
 </instance>
@@ -2492,10 +2405,12 @@ Wickmann</description>
 <nets>
 <net name="5V" class="0">
 <segment>
-<label x="43.18" y="63.5" size="1.778" layer="95"/>
-<pinref part="FL1" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="63.5" x2="48.4124" y2="63.5" width="0.1524" layer="91"/>
-<junction x="38.1" y="63.5"/>
+<label x="17.78" y="63.5" size="1.778" layer="95"/>
+<wire x1="7.62" y1="63.5" x2="23.0124" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="+"/>
+<junction x="7.62" y="63.5"/>
+<label x="-7.62" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="76.2" y="73.66" size="1.778" layer="95"/>
@@ -2503,19 +2418,20 @@ Wickmann</description>
 <pinref part="F1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<label x="43.18" y="43.18" size="1.778" layer="95"/>
-<wire x1="38.1" y1="43.18" x2="48.4124" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="FL2" gate="G$1" pin="2"/>
+<label x="17.78" y="43.18" size="1.778" layer="95"/>
+<wire x1="7.62" y1="43.18" x2="23.0124" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="43.18" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="+"/>
+<junction x="7.62" y="43.18"/>
+<label x="-7.62" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="43.18" y="25.4" size="1.778" layer="95"/>
-<wire x1="48.26" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="FL3" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<label x="43.18" y="2.54" size="1.778" layer="95"/>
-<wire x1="48.26" y1="2.54" x2="38.1" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="FL4" gate="G$1" pin="2"/>
+<label x="17.78" y="25.4" size="1.778" layer="95"/>
+<wire x1="22.86" y1="25.4" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="25.4" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="+"/>
+<junction x="7.62" y="25.4"/>
+<label x="-7.62" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="99.06" y1="17.78" x2="99.06" y2="20.32" width="0.1524" layer="91"/>
@@ -2535,6 +2451,34 @@ Wickmann</description>
 <pinref part="C5" gate="G$1" pin="+"/>
 <wire x1="99.06" y1="35.56" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
 <junction x="99.06" y="48.26"/>
+</segment>
+<segment>
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="+"/>
+<junction x="7.62" y="2.54"/>
+<label x="-7.62" y="2.54" size="1.778" layer="95"/>
+<label x="17.78" y="2.54" size="1.778" layer="95"/>
+<wire x1="22.86" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="-35.56" y1="68.58" x2="-30.48" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="USB12" gate="G$1" pin="VUSB1"/>
+<label x="-38.1" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-35.56" y1="55.88" x2="-30.48" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="USB12" gate="G$1" pin="VUSB2"/>
+<label x="-38.1" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-35.56" y1="27.94" x2="-30.48" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="USB34" gate="G$1" pin="VUSB1"/>
+<label x="-38.1" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-35.56" y1="15.24" x2="-30.48" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="USB34" gate="G$1" pin="VUSB2"/>
+<label x="-38.1" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2633,62 +2577,6 @@ Wickmann</description>
 <junction x="106.68" y="73.66"/>
 <label x="109.22" y="76.2" size="1.778" layer="95"/>
 <pinref part="F1" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="5VOUT12" class="0">
-<segment>
-<wire x1="-35.56" y1="68.58" x2="-30.48" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="USB12" gate="G$1" pin="VUSB1"/>
-<label x="-38.1" y="68.58" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="-35.56" y1="55.88" x2="-30.48" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="USB12" gate="G$1" pin="VUSB2"/>
-<label x="-38.1" y="55.88" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="-7.62" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="7.62" y1="63.5" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
-<junction x="7.62" y="63.5"/>
-<pinref part="FL1" gate="G$1" pin="1"/>
-<label x="-7.62" y="63.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="-7.62" y1="43.18" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="+"/>
-<wire x1="7.62" y1="43.18" x2="10.16" y2="43.18" width="0.1524" layer="91"/>
-<junction x="7.62" y="43.18"/>
-<pinref part="FL2" gate="G$1" pin="1"/>
-<label x="-7.62" y="43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="5VOUT34" class="0">
-<segment>
-<wire x1="-35.56" y1="27.94" x2="-30.48" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="USB34" gate="G$1" pin="VUSB1"/>
-<label x="-38.1" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="-7.62" y1="25.4" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="+"/>
-<wire x1="7.62" y1="25.4" x2="10.16" y2="25.4" width="0.1524" layer="91"/>
-<junction x="7.62" y="25.4"/>
-<pinref part="FL3" gate="G$1" pin="1"/>
-<label x="-7.62" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="-35.56" y1="15.24" x2="-30.48" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="USB34" gate="G$1" pin="VUSB2"/>
-<label x="-38.1" y="15.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="+"/>
-<wire x1="7.62" y1="2.54" x2="10.16" y2="2.54" width="0.1524" layer="91"/>
-<junction x="7.62" y="2.54"/>
-<pinref part="FL4" gate="G$1" pin="1"/>
-<label x="-7.62" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
